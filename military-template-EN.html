@@ -5,7 +5,7 @@
 > 
 
   <head>
-    <title>Military Ontology Specification - 0.9</title>
+    <title>Military Ontology Specification - 1.0</title>
     <meta http-equiv="content-type" content="text/xhtml+xml; charset=utf-8" />
     <!-- With Apologies to Dan Brickley and Libby Miller -->
     <link href="xmlns-style.css" rel="stylesheet" type="text/css" />
@@ -15,7 +15,7 @@
 
   <body>
 
-    <h1 id="title">Military Ontology Specification - 0.9</h1>
+    <h1 id="title">Military Ontology Specification - 1.0</h1>
 
     <h2 id="subtitle">The Muninn Military Ontology marks up information
     about military people, organizations and events.
@@ -23,22 +23,22 @@
     people icon representing a soldier, by Rion"  align="right">
     <!-- http://commons.wikimedia.org/wiki/File:Army-officer-icon.png  -->
 
-    <h3 id="mymw-doctype">Working Draft &mdash; 07 December 2014</h3>
+    <h3 id="mymw-doctype">Working Draft &mdash; 04 July 2015</h3>
 
     <dl>
 
       <dt>Previous version:</dt>
       <dd><a
-      href="http://rdf.muninn-project.org/ontologies/military-20141031.html">http://rdf.muninn-project.org/ontologies/military-20141031.html</a>
+      href="http://rdf.muninn-project.org/ontologies/military-20141207.html">http://rdf.muninn-project.org/ontologies/military-20141207.html</a>
       (<a
-      href="http://rdf.muninn-project.org/ontologies/military-20141031.owl">owl</a>)
+      href="http://rdf.muninn-project.org/ontologies/military-20141207.owl">owl</a>)
       </dd>
 
       <dt>This version:</dt>
       <dd><a
-      href="http://rdf.muninn-project.org/ontologies/military-20141207.html">http://rdf.muninn-project.org/ontologies/military-20141207.html</a>
+      href="http://rdf.muninn-project.org/ontologies/military-20150704.html">http://rdf.muninn-project.org/ontologies/military-20150704.html</a>
       (<a
-      href="http://rdf.muninn-project.org/ontologies/military-20141207.owl">owl</a>)
+      href="http://rdf.muninn-project.org/ontologies/military-20150704.owl">owl</a>)
       </dd>
 
       <dt>Latest version:</dt>
@@ -48,8 +48,8 @@
       href="http://rdf.muninn-project.org/ontologies/military.owl">owl</a>)
       </dd>
 
-      <dt>Last Update: 0.9</dt>
-      <dd>Date: 07 December 2014</dd>
+      <dt>Last Update: 1.0</dt>
+      <dd>Date: 04 July 2015</dd>
 
       <dt>Authors:</dt>
       <dd>Robert Warren, The Muninn Project</dd>
@@ -262,8 +262,8 @@
     <h3 id="definition_list">Global cross reference</h3>
     
     <!-- The list of classes and properties goes here -->
-    <div style="padding: 1em; border: dotted; background-color: #ddd;"><p>Classes:  <a href="#ActingRank">ActingRank</a>,  <a href="#AirDivision">AirDivision</a>,  <a href="#AirForceCommand">AirForceCommand</a>,  <a href="#AirForceDetail">AirForceDetail</a>,  <a href="#AirForceGroup">AirForceGroup</a>,  <a href="#AirForceServiceBranch">AirForceServiceBranch</a>,  <a href="#AirForceSquadron">AirForceSquadron</a>,  <a href="#AirForceStation">AirForceStation</a>,  <a href="#AirForceStationRAF">AirForceStationRAF</a>,  <a href="#AirForceWing">AirForceWing</a>,  <a href="#Appointment">Appointment</a>,  <a href="#ArmsType">ArmsType</a>,  <a href="#ArmyCompany">ArmyCompany</a>,  <a href="#ArmyFront">ArmyFront</a>,  <a href="#ArmyGroup">ArmyGroup</a>,  <a href="#ArmySection">ArmySection</a>,  <a href="#ArmyServiceBranch">ArmyServiceBranch</a>,  <a href="#ArmySquad">ArmySquad</a>,  <a href="#ArmyTroop">ArmyTroop</a>,  <a href="#ArtilleryBattery">ArtilleryBattery</a>,  <a href="#ArtilleryBatteryDivision">ArtilleryBatteryDivision</a>,  <a href="#ArtilleryEmplacement">ArtilleryEmplacement</a>,  <a href="#AssaultGroupInfantry">AssaultGroupInfantry</a>,  <a href="#Battalion">Battalion</a>,  <a href="#Battle">Battle</a>,  <a href="#BattleSpace">BattleSpace</a>,  <a href="#BrevetRank">BrevetRank</a>,  <a href="#Brigade">Brigade</a>,  <a href="#BrigadeAirCorps">BrigadeAirCorps</a>,  <a href="#Campaign">Campaign</a>,  <a href="#CarrierBattleGroup">CarrierBattleGroup</a>,  <a href="#CavalrySquadron">CavalrySquadron</a>,  <a href="#CavalryTroop">CavalryTroop</a>,  <a href="#Civilian">Civilian</a>,  <a href="#Combatant">Combatant</a>,  <a href="#CorpsFormation">CorpsFormation</a>,  <a href="#CorpsUnit">CorpsUnit</a>,  <a href="#DemiBrigade">DemiBrigade</a>,  <a href="#Depot">Depot</a>,  <a href="#Detachment">Detachment</a>,  <a href="#Division">Division</a>,  <a href="#DivisionNavalEstablishment">DivisionNavalEstablishment</a>,  <a href="#DivisionNavalUnit">DivisionNavalUnit</a>,  <a href="#DraftedSoldier">DraftedSoldier</a>,  <a href="#Enlisted">Enlisted</a>,  <a href="#ExchangeOfficer">ExchangeOfficer</a>,  <a href="#FieldArmy">FieldArmy</a>,  <a href="#FieldArtillery">FieldArtillery</a>,  <a href="#Fireteam">Fireteam</a>,  <a href="#FlagOfficer">FlagOfficer</a>,  <a href="#Flotilla">Flotilla</a>,  <a href="#Frigate">Frigate</a>,  <a href="#FrontLine">FrontLine</a>,  <a href="#Garrison">Garrison</a>,  <a href="#GeneralOfficer">GeneralOfficer</a>,  <a href="#GrandeBatterie">GrandeBatterie</a>,  <a href="#HorseArtillery">HorseArtillery</a>,  <a href="#HouseholdCavalry">HouseholdCavalry</a>,  <a href="#Infantry">Infantry</a>,  <a href="#Invasion">Invasion</a>,  <a href="#LiaisonOfficer">LiaisonOfficer</a>,  <a href="#LightInfantry">LightInfantry</a>,  <a href="#MilitaryAirborneFlight">MilitaryAirborneFlight</a>,  <a href="#MilitaryAppointment">MilitaryAppointment</a>,  <a href="#MilitaryEvent">MilitaryEvent</a>,  <a href="#MilitaryFlightUnit">MilitaryFlightUnit</a>,  <a href="#MilitaryGroundFlight">MilitaryGroundFlight</a>,  <a href="#MilitaryOperation">MilitaryOperation</a>,  <a href="#MilitaryOrganization">MilitaryOrganization</a>,  <a href="#MilitaryRaid">MilitaryRaid</a>,  <a href="#MilitaryRank">MilitaryRank</a>,  <a href="#MilitaryServiceBranch">MilitaryServiceBranch</a>,  <a href="#MilitaryTrade">MilitaryTrade</a>,  <a href="#MilitaryTrench">MilitaryTrench</a>,  <a href="#MilitaryUniform">MilitaryUniform</a>,  <a href="#MountainArtillery">MountainArtillery</a>,  <a href="#NamedAirForceUnit">NamedAirForceUnit</a>,  <a href="#NatoRankOF-1">NatoRankOF-1</a>,  <a href="#NatoRankOF-10">NatoRankOF-10</a>,  <a href="#NatoRankOF-2">NatoRankOF-2</a>,  <a href="#NatoRankOF-3">NatoRankOF-3</a>,  <a href="#NatoRankOF-4">NatoRankOF-4</a>,  <a href="#NatoRankOF-5">NatoRankOF-5</a>,  <a href="#NatoRankOF-6">NatoRankOF-6</a>,  <a href="#NatoRankOF-7">NatoRankOF-7</a>,  <a href="#NatoRankOF-8">NatoRankOF-8</a>,  <a href="#NatoRankOF-9">NatoRankOF-9</a>,  <a href="#NatoRankOR-1">NatoRankOR-1</a>,  <a href="#NatoRankOR-2">NatoRankOR-2</a>,  <a href="#NatoRankOR-3">NatoRankOR-3</a>,  <a href="#NatoRankOR-4">NatoRankOR-4</a>,  <a href="#NatoRankOR-5">NatoRankOR-5</a>,  <a href="#NatoRankOR-6">NatoRankOR-6</a>,  <a href="#NatoRankOR-7">NatoRankOR-7</a>,  <a href="#NatoRankOR-8">NatoRankOR-8</a>,  <a href="#NatoRankOR-9">NatoRankOR-9</a>,  <a href="#NatoRankWO-1">NatoRankWO-1</a>,  <a href="#NatoRankWO-2">NatoRankWO-2</a>,  <a href="#NatoRankWO-3">NatoRankWO-3</a>,  <a href="#NatoRankWO-4">NatoRankWO-4</a>,  <a href="#NatoRankWO-5">NatoRankWO-5</a>,  <a href="#NatoRanks">NatoRanks</a>,  <a href="#NavalArtillery">NavalArtillery</a>,  <a href="#NavalFleet">NavalFleet</a>,  <a href="#NavalOfficer">NavalOfficer</a>,  <a href="#NavalRating">NavalRating</a>,  <a href="#NavalSquadron">NavalSquadron</a>,  <a href="#NavalTaskForce">NavalTaskForce</a>,  <a href="#NavyAirStation">NavyAirStation</a>,  <a href="#NavyBigFleet">NavyBigFleet</a>,  <a href="#NavyMerchant">NavyMerchant</a>,  <a href="#NavyServiceBranch">NavyServiceBranch</a>,  <a href="#Non-Combatant">Non-Combatant</a>,  <a href="#NonCommissionedOfficer">NonCommissionedOfficer</a>,  <a href="#Officer">Officer</a>,  <a href="#Platoon">Platoon</a>,  <a href="#PostToUnit">PostToUnit</a>,  <a href="#PrivilegedCombatant">PrivilegedCombatant</a>,  <a href="#ProtoAirForce">ProtoAirForce</a>,  <a href="#Rank">Rank</a>,  <a href="#Regiment">Regiment</a>,  <a href="#RegularForceSoldier">RegularForceSoldier</a>,  <a href="#Reservist">Reservist</a>,  <a href="#Role">Role</a>,  <a href="#SeamanMilitary">SeamanMilitary</a>,  <a href="#Ship">Ship</a>,  <a href="#ShoreEstablishment">ShoreEstablishment</a>,  <a href="#Soldier">Soldier</a>,  <a href="#Spy">Spy</a>,  <a href="#Squadron">Squadron</a>,  <a href="#SupplyTrain">SupplyTrain</a>,  <a href="#TacticalAirForce">TacticalAirForce</a>,  <a href="#Trade">Trade</a>,  <a href="#TrenchObstacle">TrenchObstacle</a>,  <a href="#UnprivilegedCombatant">UnprivilegedCombatant</a>,  <a href="#VolunteerSoldier">VolunteerSoldier</a>,  <a href="#War">War</a>,  <a href="#WarTheater">WarTheater</a>,  <a href="#WarrantOfficer">WarrantOfficer</a>,  <a href="#Warship">Warship</a>,  <a href="#Weapon">Weapon</a>, 
-</p><p>Properties:  <a href="#BattleStandard">BattleStandard</a>,  <a href="#RegimentalColours">RegimentalColours</a>,  <a href="#allegiance">allegiance</a>,  <a href="#commanderInChiefOf">commanderInChiefOf</a>,  <a href="#deathDay">deathDay</a>,  <a href="#epauletDepiction">epauletDepiction</a>,  <a href="#hasCommanderInChief">hasCommanderInChief</a>,  <a href="#hasPrincipal">hasPrincipal</a>,  <a href="#hasUniform">hasUniform</a>,  <a href="#heldRank">heldRank</a>,  <a href="#inUse">inUse</a>,  <a href="#nominalSize">nominalSize</a>,  <a href="#rankOf">rankOf</a>, 
+    <div style="padding: 1em; border: dotted; background-color: #ddd;"><p>Classes:  <a href="#ActingRank">ActingRank</a>,  <a href="#AirDivision">AirDivision</a>,  <a href="#AirForceCommand">AirForceCommand</a>,  <a href="#AirForceDetail">AirForceDetail</a>,  <a href="#AirForceGroup">AirForceGroup</a>,  <a href="#AirForceServiceBranch">AirForceServiceBranch</a>,  <a href="#AirForceSquadron">AirForceSquadron</a>,  <a href="#AirForceStation">AirForceStation</a>,  <a href="#AirForceStationRAF">AirForceStationRAF</a>,  <a href="#AirForceWing">AirForceWing</a>,  <a href="#Appointment">Appointment</a>,  <a href="#ArmsType">ArmsType</a>,  <a href="#ArmyCompany">ArmyCompany</a>,  <a href="#ArmyFront">ArmyFront</a>,  <a href="#ArmyGroup">ArmyGroup</a>,  <a href="#ArmySection">ArmySection</a>,  <a href="#ArmyServiceBranch">ArmyServiceBranch</a>,  <a href="#ArmySquad">ArmySquad</a>,  <a href="#ArmyTroop">ArmyTroop</a>,  <a href="#ArtilleryBattery">ArtilleryBattery</a>,  <a href="#ArtilleryBatteryDivision">ArtilleryBatteryDivision</a>,  <a href="#ArtilleryEmplacement">ArtilleryEmplacement</a>,  <a href="#AssaultGroupInfantry">AssaultGroupInfantry</a>,  <a href="#Battalion">Battalion</a>,  <a href="#Battle">Battle</a>,  <a href="#BattleSpace">BattleSpace</a>,  <a href="#BrevetRank">BrevetRank</a>,  <a href="#Brigade">Brigade</a>,  <a href="#BrigadeAirCorps">BrigadeAirCorps</a>,  <a href="#Campaign">Campaign</a>,  <a href="#CarrierBattleGroup">CarrierBattleGroup</a>,  <a href="#CavalrySquadron">CavalrySquadron</a>,  <a href="#CavalryTroop">CavalryTroop</a>,  <a href="#Civilian">Civilian</a>,  <a href="#Combatant">Combatant</a>,  <a href="#Corps">Corps</a>,  <a href="#CorpsFormation">CorpsFormation</a>,  <a href="#CorpsUnit">CorpsUnit</a>,  <a href="#DemiBrigade">DemiBrigade</a>,  <a href="#Depot">Depot</a>,  <a href="#Detachment">Detachment</a>,  <a href="#Division">Division</a>,  <a href="#DivisionNavalEstablishment">DivisionNavalEstablishment</a>,  <a href="#DivisionNavalUnit">DivisionNavalUnit</a>,  <a href="#DraftedSoldier">DraftedSoldier</a>,  <a href="#Enlisted">Enlisted</a>,  <a href="#ExchangeOfficer">ExchangeOfficer</a>,  <a href="#FieldArmy">FieldArmy</a>,  <a href="#FieldArtillery">FieldArtillery</a>,  <a href="#Fireteam">Fireteam</a>,  <a href="#FlagOfficer">FlagOfficer</a>,  <a href="#Flotilla">Flotilla</a>,  <a href="#Frigate">Frigate</a>,  <a href="#FrontLine">FrontLine</a>,  <a href="#Garrison">Garrison</a>,  <a href="#GeneralOfficer">GeneralOfficer</a>,  <a href="#GrandeBatterie">GrandeBatterie</a>,  <a href="#HorseArtillery">HorseArtillery</a>,  <a href="#HouseholdCavalry">HouseholdCavalry</a>,  <a href="#Infantry">Infantry</a>,  <a href="#Invasion">Invasion</a>,  <a href="#LiaisonOfficer">LiaisonOfficer</a>,  <a href="#LightInfantry">LightInfantry</a>,  <a href="#MilitaryAirborneFlight">MilitaryAirborneFlight</a>,  <a href="#MilitaryAppointment">MilitaryAppointment</a>,  <a href="#MilitaryEvent">MilitaryEvent</a>,  <a href="#MilitaryFlightUnit">MilitaryFlightUnit</a>,  <a href="#MilitaryGroundFlight">MilitaryGroundFlight</a>,  <a href="#MilitaryOperation">MilitaryOperation</a>,  <a href="#MilitaryOrganization">MilitaryOrganization</a>,  <a href="#MilitaryRaid">MilitaryRaid</a>,  <a href="#MilitaryRank">MilitaryRank</a>,  <a href="#MilitaryServiceBranch">MilitaryServiceBranch</a>,  <a href="#MilitaryTrade">MilitaryTrade</a>,  <a href="#MilitaryTrench">MilitaryTrench</a>,  <a href="#MilitaryUniform">MilitaryUniform</a>,  <a href="#MountainArtillery">MountainArtillery</a>,  <a href="#NamedAirForceUnit">NamedAirForceUnit</a>,  <a href="#NatoRankOF-1">NatoRankOF-1</a>,  <a href="#NatoRankOF-10">NatoRankOF-10</a>,  <a href="#NatoRankOF-2">NatoRankOF-2</a>,  <a href="#NatoRankOF-3">NatoRankOF-3</a>,  <a href="#NatoRankOF-4">NatoRankOF-4</a>,  <a href="#NatoRankOF-5">NatoRankOF-5</a>,  <a href="#NatoRankOF-6">NatoRankOF-6</a>,  <a href="#NatoRankOF-7">NatoRankOF-7</a>,  <a href="#NatoRankOF-8">NatoRankOF-8</a>,  <a href="#NatoRankOF-9">NatoRankOF-9</a>,  <a href="#NatoRankOR-1">NatoRankOR-1</a>,  <a href="#NatoRankOR-2">NatoRankOR-2</a>,  <a href="#NatoRankOR-3">NatoRankOR-3</a>,  <a href="#NatoRankOR-4">NatoRankOR-4</a>,  <a href="#NatoRankOR-5">NatoRankOR-5</a>,  <a href="#NatoRankOR-6">NatoRankOR-6</a>,  <a href="#NatoRankOR-7">NatoRankOR-7</a>,  <a href="#NatoRankOR-8">NatoRankOR-8</a>,  <a href="#NatoRankOR-9">NatoRankOR-9</a>,  <a href="#NatoRankWO-1">NatoRankWO-1</a>,  <a href="#NatoRankWO-2">NatoRankWO-2</a>,  <a href="#NatoRankWO-3">NatoRankWO-3</a>,  <a href="#NatoRankWO-4">NatoRankWO-4</a>,  <a href="#NatoRankWO-5">NatoRankWO-5</a>,  <a href="#NatoRanks">NatoRanks</a>,  <a href="#NavalArtillery">NavalArtillery</a>,  <a href="#NavalFleet">NavalFleet</a>,  <a href="#NavalOfficer">NavalOfficer</a>,  <a href="#NavalRating">NavalRating</a>,  <a href="#NavalSquadron">NavalSquadron</a>,  <a href="#NavalTaskForce">NavalTaskForce</a>,  <a href="#NavyAirStation">NavyAirStation</a>,  <a href="#NavyBigFleet">NavyBigFleet</a>,  <a href="#NavyMerchant">NavyMerchant</a>,  <a href="#NavyServiceBranch">NavyServiceBranch</a>,  <a href="#Non-Combatant">Non-Combatant</a>,  <a href="#NonCommissionedOfficer">NonCommissionedOfficer</a>,  <a href="#Officer">Officer</a>,  <a href="#Platoon">Platoon</a>,  <a href="#PostToUnit">PostToUnit</a>,  <a href="#PrivilegedCombatant">PrivilegedCombatant</a>,  <a href="#ProtoAirForce">ProtoAirForce</a>,  <a href="#Rank">Rank</a>,  <a href="#Regiment">Regiment</a>,  <a href="#RegularForceSoldier">RegularForceSoldier</a>,  <a href="#Reservist">Reservist</a>,  <a href="#Role">Role</a>,  <a href="#SeamanMilitary">SeamanMilitary</a>,  <a href="#Ship">Ship</a>,  <a href="#ShoreEstablishment">ShoreEstablishment</a>,  <a href="#Soldier">Soldier</a>,  <a href="#Spy">Spy</a>,  <a href="#Squadron">Squadron</a>,  <a href="#SupplyTrain">SupplyTrain</a>,  <a href="#TacticalAirForce">TacticalAirForce</a>,  <a href="#Trade">Trade</a>,  <a href="#TrenchObstacle">TrenchObstacle</a>,  <a href="#UnprivilegedCombatant">UnprivilegedCombatant</a>,  <a href="#VolunteerSoldier">VolunteerSoldier</a>,  <a href="#War">War</a>,  <a href="#WarTheater">WarTheater</a>,  <a href="#WarrantOfficer">WarrantOfficer</a>,  <a href="#Warship">Warship</a>,  <a href="#Weapon">Weapon</a>, 
+</p><p>Properties:  <a href="#BattleStandard">BattleStandard</a>,  <a href="#RegimentalColours">RegimentalColours</a>,  <a href="#allegiance">allegiance</a>,  <a href="#commanderInChiefOf">commanderInChiefOf</a>,  <a href="#deathDay">deathDay</a>,  <a href="#epauletDepiction">epauletDepiction</a>,  <a href="#hasCommanderInChief">hasCommanderInChief</a>,  <a href="#hasPrincipal">hasPrincipal</a>,  <a href="#hasUniform">hasUniform</a>,  <a href="#heldRank">heldRank</a>,  <a href="#idANZACNumber">idANZACNumber</a>,  <a href="#inUse">inUse</a>,  <a href="#militaryServiceNumber">militaryServiceNumber</a>,  <a href="#nominalSize">nominalSize</a>,  <a href="#rankOf">rankOf</a>, 
 </p><p>Instances:  <a href="#1AIFRank2ndCorporal">1AIFRank2ndCorporal</a>,  <a href="#1AIFRank2ndLieutenant">1AIFRank2ndLieutenant</a>,  <a href="#1AIFRankAbleSeaman">1AIFRankAbleSeaman</a>,  <a href="#1AIFRankAirMechanic">1AIFRankAirMechanic</a>,  <a href="#1AIFRankAirMechanicClassI">1AIFRankAirMechanicClassI</a>,  <a href="#1AIFRankAirMechanicClassII">1AIFRankAirMechanicClassII</a>,  <a href="#1AIFRankBombardier">1AIFRankBombardier</a>,  <a href="#1AIFRankCaptain">1AIFRankCaptain</a>,  <a href="#1AIFRankChaplain">1AIFRankChaplain</a>,  <a href="#1AIFRankCompanyQuartermasterSergeant">1AIFRankCompanyQuartermasterSergeant</a>,  <a href="#1AIFRankCompanySergeantMajor">1AIFRankCompanySergeantMajor</a>,  <a href="#1AIFRankCorporal">1AIFRankCorporal</a>,  <a href="#1AIFRankDriver">1AIFRankDriver</a>,  <a href="#1AIFRankEngineer">1AIFRankEngineer</a>,  <a href="#1AIFRankGunner">1AIFRankGunner</a>,  <a href="#1AIFRankLanceCorporal">1AIFRankLanceCorporal</a>,  <a href="#1AIFRankLanceSergeant">1AIFRankLanceSergeant</a>,  <a href="#1AIFRankLeadingStoker">1AIFRankLeadingStoker</a>,  <a href="#1AIFRankLieutenant">1AIFRankLieutenant</a>,  <a href="#1AIFRankLieutenantColonel">1AIFRankLieutenantColonel</a>,  <a href="#1AIFRankMajor">1AIFRankMajor</a>,  <a href="#1AIFRankNurse">1AIFRankNurse</a>,  <a href="#1AIFRankPettyOfficer">1AIFRankPettyOfficer</a>,  <a href="#1AIFRankPrivate">1AIFRankPrivate</a>,  <a href="#1AIFRankRegimentalQuartermasterSergeant">1AIFRankRegimentalQuartermasterSergeant</a>,  <a href="#1AIFRankRegimentalSergeantMajor">1AIFRankRegimentalSergeantMajor</a>,  <a href="#1AIFRankSapper">1AIFRankSapper</a>,  <a href="#1AIFRankSergeant">1AIFRankSergeant</a>,  <a href="#1AIFRankSergeantMajor">1AIFRankSergeantMajor</a>,  <a href="#1AIFRankSignaller">1AIFRankSignaller</a>,  <a href="#1AIFRankStaffSergeant">1AIFRankStaffSergeant</a>,  <a href="#1AIFRankTrooper">1AIFRankTrooper</a>,  <a href="#1AIFRankWarrantOfficer">1AIFRankWarrantOfficer</a>,  <a href="#1AIFRankWarrantOfficerClass2">1AIFRankWarrantOfficerClass2</a>,  <a href="#Actarius">Actarius</a>,  <a href="#Agrimensor">Agrimensor</a>,  <a href="#AirForceServiceBranch">AirForceServiceBranch</a>,  <a href="#Architectus">Architectus</a>,  <a href="#Armor">Armor</a>,  <a href="#Artillery">Artillery</a>,  <a href="#Cavalry">Cavalry</a>,  <a href="#CenturiaRoman">CenturiaRoman</a>,  <a href="#Centurio">Centurio</a>,  <a href="#CenturioCenturionOrdinatus">CenturioCenturionOrdinatus</a>,  <a href="#CenturioHastatusPosterior">CenturioHastatusPosterior</a>,  <a href="#CenturioHastatusPrior">CenturioHastatusPrior</a>,  <a href="#CenturioPilusPosterior">CenturioPilusPosterior</a>,  <a href="#CenturioPilusPrior">CenturioPilusPrior</a>,  <a href="#CenturioPrimusPilus">CenturioPrimusPilus</a>,  <a href="#CenturioPrincepsPosterior">CenturioPrincepsPosterior</a>,  <a href="#CenturioPrincepsPrior">CenturioPrincepsPrior</a>,  <a href="#classis">classis</a>,  <a href="#CohorsRoman">CohorsRoman</a>,  <a href="#Cornicularius">Cornicularius</a>,  <a href="#cuneus">cuneus</a>,  <a href="#Curator">Curator</a>,  <a href="#CustosArmorum">CustosArmorum</a>,  <a href="#Decurio">Decurio</a>,  <a href="#Discens">Discens</a>,  <a href="#Epibatae">Epibatae</a>,  <a href="#Eques">Eques</a>,  <a href="#FightsPrimarilyInAir">FightsPrimarilyInAir</a>,  <a href="#FightsPrimarilyOnAndInLand">FightsPrimarilyOnAndInLand</a>,  <a href="#FightsPrimarilyOnAndInWater">FightsPrimarilyOnAndInWater</a>,  <a href="#Hastati">Hastati</a>,  <a href="#Imaginifer">Imaginifer</a>,  <a href="#Immunis">Immunis</a>,  <a href="#Infantry">Infantry</a>,  <a href="#information">information</a>,  <a href="#LegioRoman">LegioRoman</a>,  <a href="#Librarius">Librarius</a>,  <a href="#LightInfantry">LightInfantry</a>,  <a href="#ManipularLegioRoman">ManipularLegioRoman</a>,  <a href="#MarianLegioRoman">MarianLegioRoman</a>,  <a href="#Medicus">Medicus</a>,  <a href="#Miles">Miles</a>,  <a href="#NavyServiceBranch">NavyServiceBranch</a>,  <a href="#numerus">numerus</a>,  <a href="#parentUnit">parentUnit</a>,  <a href="#Pedes">Pedes</a>,  <a href="#Principales">Principales</a>,  <a href="#Principes">Principes</a>,  <a href="#ProtoAirForce">ProtoAirForce</a>,  <a href="#Rank_Admiral_EnglishTradition">Rank_Admiral_EnglishTradition</a>,  <a href="#Rank_Admiral_of_the_fleet_EnglishTradition">Rank_Admiral_of_the_fleet_EnglishTradition</a>,  <a href="#Rank_Admiral_of_the_Fleet_Russia">Rank_Admiral_of_the_Fleet_Russia</a>,  <a href="#Rank_Admiral_of_the_Fleet_Russia_Russia">Rank_Admiral_of_the_Fleet_Russia_Russia</a>,  <a href="#Rank_Admiral_of_the_Fleet_Russia_Soviet_Union">Rank_Admiral_of_the_Fleet_Russia_Soviet_Union</a>,  <a href="#Rank_Agha">Rank_Agha</a>,  <a href="#Rank_Agha_Cossack_Hetmanate">Rank_Agha_Cossack_Hetmanate</a>,  <a href="#Rank_Agha_Ottoman_Empire">Rank_Agha_Ottoman_Empire</a>,  <a href="#Rank_Agha_Septinsular_Republic">Rank_Agha_Septinsular_Republic</a>,  <a href="#Rank_Air_chief_marshal">Rank_Air_chief_marshal</a>,  <a href="#Rank_Air_chief_marshal_Australia">Rank_Air_chief_marshal_Australia</a>,  <a href="#Rank_Air_chief_marshal_Australia_Australia">Rank_Air_chief_marshal_Australia_Australia</a>,  <a href="#Rank_Air_chief_marshal_Canada">Rank_Air_chief_marshal_Canada</a>,  <a href="#Rank_Air_chief_marshal_Commonwealth_of_Nations">Rank_Air_chief_marshal_Commonwealth_of_Nations</a>,  <a href="#Rank_Air_commodore_EnglishTradition">Rank_Air_commodore_EnglishTradition</a>,  <a href="#Rank_Air_marshal_EnglishTradition">Rank_Air_marshal_EnglishTradition</a>,  <a href="#Rank_Air_vice-marshal">Rank_Air_vice-marshal</a>,  <a href="#Rank_Air_vice-marshal_Australia">Rank_Air_vice-marshal_Australia</a>,  <a href="#Rank_Air_vice-marshal_Canada">Rank_Air_vice-marshal_Canada</a>,  <a href="#Rank_Air_vice-marshal_Commonwealth_of_Nations">Rank_Air_vice-marshal_Commonwealth_of_Nations</a>,  <a href="#Rank_Aircraftman_EnglishTradition">Rank_Aircraftman_EnglishTradition</a>,  <a href="#Rank_Anthypolochagos">Rank_Anthypolochagos</a>,  <a href="#Rank_Anthypolochagos_Greece">Rank_Anthypolochagos_Greece</a>,  <a href="#Rank_Anthypolochagos_Official_Timocracy_of_Sapinetia">Rank_Anthypolochagos_Official_Timocracy_of_Sapinetia</a>,  <a href="#Rank_Antisyntagmatarchis">Rank_Antisyntagmatarchis</a>,  <a href="#Rank_Antisyntagmatarchis_Greece">Rank_Antisyntagmatarchis_Greece</a>,  <a href="#Rank_Antisyntagmatarchis_Official_Timocracy_of_Sapinetia">Rank_Antisyntagmatarchis_Official_Timocracy_of_Sapinetia</a>,  <a href="#Rank_Appointee_Italy">Rank_Appointee_Italy</a>,  <a href="#Rank_Appointee_Switzerland">Rank_Appointee_Switzerland</a>,  <a href="#Rank_Army_General_Russia">Rank_Army_General_Russia</a>,  <a href="#Rank_Army_General_Russia_Russia">Rank_Army_General_Russia_Russia</a>,  <a href="#Rank_Army_General_Russia_Soviet_Union">Rank_Army_General_Russia_Soviet_Union</a>,  <a href="#Rank_Aspirant">Rank_Aspirant</a>,  <a href="#Rank_Aspirant_France">Rank_Aspirant_France</a>,  <a href="#Rank_Aspirant_Romania">Rank_Aspirant_Romania</a>,  <a href="#Rank_Aspirant_Romania_Romania">Rank_Aspirant_Romania_Romania</a>,  <a href="#Rank_Ataman">Rank_Ataman</a>,  <a href="#Rank_Ataman_Russia">Rank_Ataman_Russia</a>,  <a href="#Rank_Ataman_Soviet_Union">Rank_Ataman_Soviet_Union</a>,  <a href="#Rank_Ataman_Ukraine">Rank_Ataman_Ukraine</a>,  <a href="#Rank_Battery_sergeant_major">Rank_Battery_sergeant_major</a>,  <a href="#Rank_Birinci_Ferik">Rank_Birinci_Ferik</a>,  <a href="#Rank_Birinci_Ferik_Cossack_Hetmanate">Rank_Birinci_Ferik_Cossack_Hetmanate</a>,  <a href="#Rank_Birinci_Ferik_Ottoman_Empire">Rank_Birinci_Ferik_Ottoman_Empire</a>,  <a href="#Rank_Birinci_Ferik_Septinsular_Republic">Rank_Birinci_Ferik_Septinsular_Republic</a>,  <a href="#Rank_Bombardier">Rank_Bombardier</a>,  <a href="#Rank_Bombardier_Australia">Rank_Bombardier_Australia</a>,  <a href="#Rank_Bombardier_Canada">Rank_Bombardier_Canada</a>,  <a href="#Rank_Bombardier_Commonwealth_of_Nations">Rank_Bombardier_Commonwealth_of_Nations</a>,  <a href="#Rank_Bootsmann">Rank_Bootsmann</a>,  <a href="#Rank_Bootsmann_Germany">Rank_Bootsmann_Germany</a>,  <a href="#Rank_Bootsmann_Russia">Rank_Bootsmann_Russia</a>,  <a href="#Rank_Bootsmann_Soviet_Union">Rank_Bootsmann_Soviet_Union</a>,  <a href="#Rank_Brigade_General">Rank_Brigade_General</a>,  <a href="#Rank_Brigade_General_Australia">Rank_Brigade_General_Australia</a>,  <a href="#Rank_Brigade_General_Canada">Rank_Brigade_General_Canada</a>,  <a href="#Rank_Brigadier_EnglishTradition">Rank_Brigadier_EnglishTradition</a>,  <a href="#Rank_Brigadier_general">Rank_Brigadier_general</a>,  <a href="#Rank_Brigadier_general_Australia">Rank_Brigadier_general_Australia</a>,  <a href="#Rank_Brigadier_general_Canada">Rank_Brigadier_general_Canada</a>,  <a href="##Rank_Buffer_Navy">Rank_Buffer_Navy</a>,  <a href="##Rank_Buffer_Navy_Australia">Rank_Buffer_Navy_Australia</a>,  <a href="##Rank_Buffer_Navy_Commonwealth_of_Nations">Rank_Buffer_Navy_Commonwealth_of_Nations</a>,  <a href="#Rank_Captain">Rank_Captain</a>,  <a href="#Rank_Captain_(naval)_EnglishTradition">Rank_Captain_(naval)_EnglishTradition</a>,  <a href="#Rank_Captain_Australia">Rank_Captain_Australia</a>,  <a href="#Rank_Captain_Canada">Rank_Captain_Canada</a>,  <a href="#Rank_Captain_EnglishTradition">Rank_Captain_EnglishTradition</a>,  <a href="#Rank_Captain_Lieutenant">Rank_Captain_Lieutenant</a>,  <a href="#Rank_Captain_lieutenant">Rank_Captain_lieutenant</a>,  <a href="#Rank_Captain_Lieutenant_Germany">Rank_Captain_Lieutenant_Germany</a>,  <a href="#Rank_Captain_lieutenant_Germany">Rank_Captain_lieutenant_Germany</a>,  <a href="#Rank_Captain_Lieutenant_Russia">Rank_Captain_Lieutenant_Russia</a>,  <a href="#Rank_Captain_lieutenant_Russia">Rank_Captain_lieutenant_Russia</a>,  <a href="#Rank_Captain_Lieutenant_Soviet_Union">Rank_Captain_Lieutenant_Soviet_Union</a>,  <a href="#Rank_Captain_lieutenant_Soviet_Union">Rank_Captain_lieutenant_Soviet_Union</a>,  <a href="#Rank_Captain_Republic_of_Ireland">Rank_Captain_Republic_of_Ireland</a>,  <a href="#Rank_Captain_Russia">Rank_Captain_Russia</a>,  <a href="#Rank_Captain_Singapore">Rank_Captain_Singapore</a>,  <a href="#Rank_Captain_Soviet_Union">Rank_Captain_Soviet_Union</a>,  <a href="#Rank_Captain_Sweden">Rank_Captain_Sweden</a>,  <a href="#Rank_Chief_Marshal">Rank_Chief_Marshal</a>,  <a href="#Rank_Chief_Marshal_Russia">Rank_Chief_Marshal_Russia</a>,  <a href="#Rank_Chief_Marshal_Soviet_Union">Rank_Chief_Marshal_Soviet_Union</a>,  <a href="#Rank_Chief_petty_officer">Rank_Chief_petty_officer</a>,  <a href="#Rank_Chief_petty_officer,_1st_class_Canada">Rank_Chief_petty_officer,_1st_class_Canada</a>,  <a href="#Rank_Chief_petty_officer,_2nd_class_Canada">Rank_Chief_petty_officer,_2nd_class_Canada</a>,  <a href="#Rank_Chief_petty_officer_Australia">Rank_Chief_petty_officer_Australia</a>,  <a href="#Rank_Chief_petty_officer_Canada">Rank_Chief_petty_officer_Canada</a>,  <a href="#Rank_Chief_petty_officer_Commonwealth_of_Nations">Rank_Chief_petty_officer_Commonwealth_of_Nations</a>,  <a href="#Rank_Chiliarch">Rank_Chiliarch</a>,  <a href="#Rank_Chiliarch_Achaean_League">Rank_Chiliarch_Achaean_League</a>,  <a href="#Rank_Chiliarch_Byzantine_Empire">Rank_Chiliarch_Byzantine_Empire</a>,  <a href="#Rank_Chiliarch_Greece">Rank_Chiliarch_Greece</a>,  <a href="#Rank_Chiliarch_Macedonia">Rank_Chiliarch_Macedonia</a>,  <a href="#Rank_Chiliarch_Official_Timocracy_of_Sapinetia">Rank_Chiliarch_Official_Timocracy_of_Sapinetia</a>,  <a href="#Rank_Chorbaji">Rank_Chorbaji</a>,  <a href="#Rank_Chorbaji_Cossack_Hetmanate">Rank_Chorbaji_Cossack_Hetmanate</a>,  <a href="#Rank_Chorbaji_Ottoman_Empire">Rank_Chorbaji_Ottoman_Empire</a>,  <a href="#Rank_Chorbaji_Septinsular_Republic">Rank_Chorbaji_Septinsular_Republic</a>,  <a href="#Rank_Chowqzy">Rank_Chowqzy</a>,  <a href="#Rank_Chowqzy_Poland">Rank_Chowqzy_Poland</a>,  <a href="#Rank_Chowqzy_Russia">Rank_Chowqzy_Russia</a>,  <a href="#Rank_Chowqzy_Soviet_Union">Rank_Chowqzy_Soviet_Union</a>,  <a href="#Rank_Chowqzy_Ukraine">Rank_Chowqzy_Ukraine</a>,  <a href="#Rank_Colonel_EnglishTradition">Rank_Colonel_EnglishTradition</a>,  <a href="#Rank_Comandarm">Rank_Comandarm</a>,  <a href="#Rank_Comandarm_Russia">Rank_Comandarm_Russia</a>,  <a href="#Rank_Comandarm_Soviet_Union">Rank_Comandarm_Soviet_Union</a>,  <a href="#Rank_Combrig">Rank_Combrig</a>,  <a href="#Rank_Combrig_Russia">Rank_Combrig_Russia</a>,  <a href="#Rank_Combrig_Soviet_Union">Rank_Combrig_Soviet_Union</a>,  <a href="#Rank_Comcor">Rank_Comcor</a>,  <a href="#Rank_Comcor_Russia">Rank_Comcor_Russia</a>,  <a href="#Rank_Comcor_Soviet_Union">Rank_Comcor_Soviet_Union</a>,  <a href="#Rank_Comdiv">Rank_Comdiv</a>,  <a href="#Rank_Comdiv_Russia">Rank_Comdiv_Russia</a>,  <a href="#Rank_Comdiv_Soviet_Union">Rank_Comdiv_Soviet_Union</a>,  <a href="#Rank_Commandant_(rank)_EnglishTradition">Rank_Commandant_(rank)_EnglishTradition</a>,  <a href="#Rank_Commander_EnglishTradition">Rank_Commander_EnglishTradition</a>,  <a href="#Rank_Commandeur">Rank_Commandeur</a>,  <a href="#Rank_Commandeur_France">Rank_Commandeur_France</a>,  <a href="#Rank_Commandeur_Netherlands">Rank_Commandeur_Netherlands</a>,  <a href="#Rank_Commodore_(rank)_EnglishTradition">Rank_Commodore_(rank)_EnglishTradition</a>,  <a href="#Rank_Company_Quartermaster_Sergeant">Rank_Company_Quartermaster_Sergeant</a>,  <a href="#Rank_Company_Quartermaster_Sergeant_Commonwealth_of_Nations">Rank_Company_Quartermaster_Sergeant_Commonwealth_of_Nations</a>,  <a href="#Rank_Company_Quartermaster_Sergeant_England">Rank_Company_Quartermaster_Sergeant_England</a>,  <a href="#Rank_Company_Quartermaster_Sergeant_Republic_of_Ireland">Rank_Company_Quartermaster_Sergeant_Republic_of_Ireland</a>,  <a href="#Rank_Company_Quartermaster_Sergeant_Scotland">Rank_Company_Quartermaster_Sergeant_Scotland</a>,  <a href="#Rank_Company_Quartermaster_Sergeant_Wales">Rank_Company_Quartermaster_Sergeant_Wales</a>,  <a href="#Rank_Company_sergeant_major">Rank_Company_sergeant_major</a>,  <a href="#Rank_Company_sergeant_major_Australia">Rank_Company_sergeant_major_Australia</a>,  <a href="#Rank_Company_sergeant_major_Canada">Rank_Company_sergeant_major_Canada</a>,  <a href="#Rank_Company_sergeant_major_Commonwealth_of_Nations">Rank_Company_sergeant_major_Commonwealth_of_Nations</a>,  <a href="#Rank_Company_sergeant_major_England">Rank_Company_sergeant_major_England</a>,  <a href="#Rank_Company_sergeant_major_Scotland">Rank_Company_sergeant_major_Scotland</a>,  <a href="#Rank_Company_sergeant_major_Singapore">Rank_Company_sergeant_major_Singapore</a>,  <a href="#Rank_Company_sergeant_major_Wales">Rank_Company_sergeant_major_Wales</a>,  <a href="#Rank_Conductor_army">Rank_Conductor_army</a>,  <a href="#Rank_Conductor_army_Australia">Rank_Conductor_army_Australia</a>,  <a href="#Rank_Conductor_army_England">Rank_Conductor_army_England</a>,  <a href="#Rank_Conductor_army_Scotland">Rank_Conductor_army_Scotland</a>,  <a href="#Rank_Conductor_army_Wales">Rank_Conductor_army_Wales</a>,  <a href="#Rank_Corporal_EnglishTradition">Rank_Corporal_EnglishTradition</a>,  <a href="#Rank_Daejang">Rank_Daejang</a>,  <a href="#Rank_Daejang_North_Korea">Rank_Daejang_North_Korea</a>,  <a href="#Rank_Daejang_South_Korea">Rank_Daejang_South_Korea</a>,  <a href="#Rank_Daffadar">Rank_Daffadar</a>,  <a href="#Rank_Daffadar_British_India">Rank_Daffadar_British_India</a>,  <a href="#Rank_Divisional_Admiral">Rank_Divisional_Admiral</a>,  <a href="#Rank_Divisional_Admiral_Belgium">Rank_Divisional_Admiral_Belgium</a>,  <a href="#Rank_Divisional_Admiral_Italy">Rank_Divisional_Admiral_Italy</a>,  <a href="#Rank_Divisional_General">Rank_Divisional_General</a>,  <a href="#Rank_Divisional_General_France">Rank_Divisional_General_France</a>,  <a href="#Rank_Divisional_General_Poland">Rank_Divisional_General_Poland</a>,  <a href="#Rank_Drum_major">Rank_Drum_major</a>,  <a href="#Rank_Drum_major_Commonwealth_of_Nations">Rank_Drum_major_Commonwealth_of_Nations</a>,  <a href="#Rank_Drum_major_England">Rank_Drum_major_England</a>,  <a href="#Rank_Drum_Major_General">Rank_Drum_Major_General</a>,  <a href="#Rank_Drum_Major_General_Commonwealth_of_Nations">Rank_Drum_Major_General_Commonwealth_of_Nations</a>,  <a href="#Rank_Drum_Major_General_England">Rank_Drum_Major_General_England</a>,  <a href="#Rank_Drum_Major_General_Scotland">Rank_Drum_Major_General_Scotland</a>,  <a href="#Rank_Drum_Major_General_Wales">Rank_Drum_Major_General_Wales</a>,  <a href="#Rank_Drum_major_Scotland">Rank_Drum_major_Scotland</a>,  <a href="#Rank_Drum_major_Wales">Rank_Drum_major_Wales</a>,  <a href="#Rank_Ensign_(rank)_EnglishTradition">Rank_Ensign_(rank)_EnglishTradition</a>,  <a href="#Rank_Epihipparch">Rank_Epihipparch</a>,  <a href="#Rank_Epihipparch_Achaean_League">Rank_Epihipparch_Achaean_League</a>,  <a href="#Rank_Epihipparch_Macedonia">Rank_Epihipparch_Macedonia</a>,  <a href="#Rank_Ferik">Rank_Ferik</a>,  <a href="#Rank_Ferik_Cossack_Hetmanate">Rank_Ferik_Cossack_Hetmanate</a>,  <a href="#Rank_Ferik_Ottoman_Empire">Rank_Ferik_Ottoman_Empire</a>,  <a href="#Rank_Ferik_Septinsular_Republic">Rank_Ferik_Septinsular_Republic</a>,  <a href="#Rank_Field_marshal_EnglishTradition">Rank_Field_marshal_EnglishTradition</a>,  <a href="#Rank_Fleet_Board">Rank_Fleet_Board</a>,  <a href="#Rank_Fleet_Board_England">Rank_Fleet_Board_England</a>,  <a href="#Rank_Fleet_Board_Scotland">Rank_Fleet_Board_Scotland</a>,  <a href="#Rank_Fleet_Board_Wales">Rank_Fleet_Board_Wales</a>,  <a href="#Rank_Flight_lieutenant_EnglishTradition">Rank_Flight_lieutenant_EnglishTradition</a>,  <a href="#Rank_Flight_sergeant">Rank_Flight_sergeant</a>,  <a href="#Rank_Flight_sergeant_Australia">Rank_Flight_sergeant_Australia</a>,  <a href="#Rank_Flight_sergeant_Canada">Rank_Flight_sergeant_Canada</a>,  <a href="#Rank_Flight_sergeant_Commonwealth_of_Nations">Rank_Flight_sergeant_Commonwealth_of_Nations</a>,  <a href="#Rank_Flight_sergeant_Republic_of_Ireland">Rank_Flight_sergeant_Republic_of_Ireland</a>,  <a href="#Rank_Flying_officer_EnglishTradition">Rank_Flying_officer_EnglishTradition</a>,  <a href="#Rank_Garrison_Sergeant_Major">Rank_Garrison_Sergeant_Major</a>,  <a href="#Rank_Garrison_Sergeant_Major_England">Rank_Garrison_Sergeant_Major_England</a>,  <a href="#Rank_Garrison_Sergeant_Major_Scotland">Rank_Garrison_Sergeant_Major_Scotland</a>,  <a href="#Rank_Garrison_Sergeant_Major_Wales">Rank_Garrison_Sergeant_Major_Wales</a>,  <a href="#Rank_Gefreiter">Rank_Gefreiter</a>,  <a href="#Rank_Gefreiter_Germany">Rank_Gefreiter_Germany</a>,  <a href="#Rank_Gefreiter_Russia">Rank_Gefreiter_Russia</a>,  <a href="#Rank_Gefreiter_Soviet_Union">Rank_Gefreiter_Soviet_Union</a>,  <a href="#Rank_General-in-Chief">Rank_General-in-Chief</a>,  <a href="#Rank_General-in-Chief_Russia">Rank_General-in-Chief_Russia</a>,  <a href="#Rank_General-in-Chief_Soviet_Union">Rank_General-in-Chief_Soviet_Union</a>,  <a href="#Rank_General_Admiral">Rank_General_Admiral</a>,  <a href="#Rank_General_Admiral_Germany">Rank_General_Admiral_Germany</a>,  <a href="#Rank_General_Admiral_Russia">Rank_General_Admiral_Russia</a>,  <a href="#Rank_General_Admiral_Soviet_Union">Rank_General_Admiral_Soviet_Union</a>,  <a href="#Rank_General_officer_EnglishTradition">Rank_General_officer_EnglishTradition</a>,  <a href="#Rank_Group_captain_EnglishTradition">Rank_Group_captain_EnglishTradition</a>,  <a href="#Rank_Hasa">Rank_Hasa</a>,  <a href="#Rank_Hasa_North_Korea">Rank_Hasa_North_Korea</a>,  <a href="#Rank_Hasa_South_Korea">Rank_Hasa_South_Korea</a>,  <a href="#Rank_Havildar">Rank_Havildar</a>,  <a href="#Rank_Havildar_British_India">Rank_Havildar_British_India</a>,  <a href="#Rank_Hetman">Rank_Hetman</a>,  <a href="#Rank_Hetman_Belarus">Rank_Hetman_Belarus</a>,  <a href="#Rank_Hetman_Lithuania">Rank_Hetman_Lithuania</a>,  <a href="#Rank_Hetman_Poland">Rank_Hetman_Poland</a>,  <a href="#Rank_Hetman_Ukraine">Rank_Hetman_Ukraine</a>,  <a href="#Rank_Hipparchus_Cavalry">Rank_Hipparchus_Cavalry</a>,  <a href="#Rank_Hipparchus_Cavalry_Achaean_League">Rank_Hipparchus_Cavalry_Achaean_League</a>,  <a href="#Rank_Hipparchus_Cavalry_Macedonia">Rank_Hipparchus_Cavalry_Macedonia</a>,  <a href="#Rank_Jungsa">Rank_Jungsa</a>,  <a href="#Rank_Jungsa_North_Korea">Rank_Jungsa_North_Korea</a>,  <a href="#Rank_Jungsa_South_Korea">Rank_Jungsa_South_Korea</a>,  <a href="#Rank_Jungwi">Rank_Jungwi</a>,  <a href="#Rank_Jungwi_North_Korea">Rank_Jungwi_North_Korea</a>,  <a href="#Rank_Jungwi_South_Korea">Rank_Jungwi_South_Korea</a>,  <a href="#Rank_Junior_sergeant">Rank_Junior_sergeant</a>,  <a href="#Rank_Junior_sergeant_Estonia">Rank_Junior_sergeant_Estonia</a>,  <a href="#Rank_Junior_sergeant_Republic_of_Estonia_1920-1940">Rank_Junior_sergeant_Republic_of_Estonia_1920-1940</a>,  <a href="#Rank_Junjang">Rank_Junjang</a>,  <a href="#Rank_Junjang_North_Korea">Rank_Junjang_North_Korea</a>,  <a href="#Rank_Junjang_South_Korea">Rank_Junjang_South_Korea</a>,  <a href="#Rank_Kapudan_Pasha">Rank_Kapudan_Pasha</a>,  <a href="#Rank_Kapudan_Pasha_Cossack_Hetmanate">Rank_Kapudan_Pasha_Cossack_Hetmanate</a>,  <a href="#Rank_Kapudan_Pasha_Ottoman_Empire">Rank_Kapudan_Pasha_Ottoman_Empire</a>,  <a href="#Rank_Kapudan_Pasha_Septinsular_Republic">Rank_Kapudan_Pasha_Septinsular_Republic</a>,  <a href="#Rank_Kindral">Rank_Kindral</a>,  <a href="#Rank_Kindral_Estonia">Rank_Kindral_Estonia</a>,  <a href="#Rank_Kindral_Republic_of_Estonia_1920-1940">Rank_Kindral_Republic_of_Estonia_1920-1940</a>,  <a href="#Rank_Kolagasi">Rank_Kolagasi</a>,  <a href="#Rank_Kolagasi_Cossack_Hetmanate">Rank_Kolagasi_Cossack_Hetmanate</a>,  <a href="#Rank_Kolagasi_Ottoman_Empire">Rank_Kolagasi_Ottoman_Empire</a>,  <a href="#Rank_Kolagasi_Septinsular_Republic">Rank_Kolagasi_Septinsular_Republic</a>,  <a href="#Rank_Kolonel">Rank_Kolonel</a>,  <a href="#Rank_Kolonel_Belgium">Rank_Kolonel_Belgium</a>,  <a href="#Rank_Kolonel_Estonia">Rank_Kolonel_Estonia</a>,  <a href="#Rank_Kolonel_Netherlands">Rank_Kolonel_Netherlands</a>,  <a href="#Rank_Kolonel_Republic_of_Estonia_1920-1940">Rank_Kolonel_Republic_of_Estonia_1920-1940</a>,  <a href="#Rank_Lance-corporal_of_horse">Rank_Lance-corporal_of_horse</a>,  <a href="#Rank_Lance-corporal_of_horse_England">Rank_Lance-corporal_of_horse_England</a>,  <a href="#Rank_Lance-corporal_of_horse_Scotland">Rank_Lance-corporal_of_horse_Scotland</a>,  <a href="#Rank_Lance-corporal_of_horse_Wales">Rank_Lance-corporal_of_horse_Wales</a>,  <a href="#Rank_Lance_corporal">Rank_Lance_corporal</a>,  <a href="#Rank_Lance_corporal_Australia">Rank_Lance_corporal_Australia</a>,  <a href="#Rank_Lance_corporal_Commonwealth_of_Nations">Rank_Lance_corporal_Commonwealth_of_Nations</a>,  <a href="#Rank_Lance_corporal_England">Rank_Lance_corporal_England</a>,  <a href="#Rank_Lance_corporal_Scotland">Rank_Lance_corporal_Scotland</a>,  <a href="#Rank_Lance_corporal_Singapore">Rank_Lance_corporal_Singapore</a>,  <a href="#Rank_Lance_corporal_Wales">Rank_Lance_corporal_Wales</a>,  <a href="#Rank_Lance_sergeant">Rank_Lance_sergeant</a>,  <a href="#Rank_Lance_sergeant_Australia">Rank_Lance_sergeant_Australia</a>,  <a href="#Rank_Lance_sergeant_Commonwealth_of_Nations">Rank_Lance_sergeant_Commonwealth_of_Nations</a>,  <a href="#Rank_Lance_sergeant_England">Rank_Lance_sergeant_England</a>,  <a href="#Rank_Lance_sergeant_Scotland">Rank_Lance_sergeant_Scotland</a>,  <a href="#Rank_Lance_sergeant_Wales">Rank_Lance_sergeant_Wales</a>,  <a href="#Rank_Leading_aircraftman">Rank_Leading_aircraftman</a>,  <a href="#Rank_Leading_aircraftman_Australia">Rank_Leading_aircraftman_Australia</a>,  <a href="#Rank_Leading_aircraftman_Canada">Rank_Leading_aircraftman_Canada</a>,  <a href="#Rank_Leading_aircraftman_Commonwealth_of_Nations">Rank_Leading_aircraftman_Commonwealth_of_Nations</a>,  <a href="#Rank_Leading_seaman_EnglishTradition">Rank_Leading_seaman_EnglishTradition</a>,  <a href="#Rank_Lieutenant_(navy)_EnglishTradition">Rank_Lieutenant_(navy)_EnglishTradition</a>,  <a href="#Rank_Lieutenant_colonel_EnglishTradition">Rank_Lieutenant_colonel_EnglishTradition</a>,  <a href="#Rank_Lieutenant_commander_EnglishTradition">Rank_Lieutenant_commander_EnglishTradition</a>,  <a href="#Rank_Lieutenant_EnglishTradition">Rank_Lieutenant_EnglishTradition</a>,  <a href="#Rank_Lochagos">Rank_Lochagos</a>,  <a href="#Rank_Lochagos_Achaean_League">Rank_Lochagos_Achaean_League</a>,  <a href="#Rank_Lochagos_Greece">Rank_Lochagos_Greece</a>,  <a href="#Rank_Lochagos_Macedonia">Rank_Lochagos_Macedonia</a>,  <a href="#Rank_Lochagos_Official_Timocracy_of_Sapinetia">Rank_Lochagos_Official_Timocracy_of_Sapinetia</a>,  <a href="#Rank_Lord_High_Admiral_of_the_Wash">Rank_Lord_High_Admiral_of_the_Wash</a>,  <a href="#Rank_Lord_High_Admiral_of_the_Wash_England">Rank_Lord_High_Admiral_of_the_Wash_England</a>,  <a href="#Rank_Lord_High_Admiral_of_the_Wash_Scotland">Rank_Lord_High_Admiral_of_the_Wash_Scotland</a>,  <a href="#Rank_Lord_High_Admiral_of_the_Wash_Wales">Rank_Lord_High_Admiral_of_the_Wash_Wales</a>,  <a href="#Rank_Major_EnglishTradition">Rank_Major_EnglishTradition</a>,  <a href="#Rank_Major_general">Rank_Major_general</a>,  <a href="#Rank_Major_general_Australia">Rank_Major_general_Australia</a>,  <a href="#Rank_Major_general_Canada">Rank_Major_general_Canada</a>,  <a href="#Rank_Marshal_EnglishTradition">Rank_Marshal_EnglishTradition</a>,  <a href="#Rank_Marshal_of_the_air_force_EnglishTradition">Rank_Marshal_of_the_air_force_EnglishTradition</a>,  <a href="#Rank_Marshal_of_the_Soviet_Union">Rank_Marshal_of_the_Soviet_Union</a>,  <a href="#Rank_Marshal_of_the_Soviet_Union_Soviet_Union">Rank_Marshal_of_the_Soviet_Union_Soviet_Union</a>,  <a href="#Rank_Master_warrant_officer">Rank_Master_warrant_officer</a>,  <a href="#Rank_Master_warrant_officer_Canada">Rank_Master_warrant_officer_Canada</a>,  <a href="#Rank_Master_warrant_officer_Singapore">Rank_Master_warrant_officer_Singapore</a>,  <a href="#Rank_Midshipman_EnglishTradition">Rank_Midshipman_EnglishTradition</a>,  <a href="#Rank_Mirliva">Rank_Mirliva</a>,  <a href="#Rank_Mirliva_Cossack_Hetmanate">Rank_Mirliva_Cossack_Hetmanate</a>,  <a href="#Rank_Mirliva_Ottoman_Empire">Rank_Mirliva_Ottoman_Empire</a>,  <a href="#Rank_Mirliva_Septinsular_Republic">Rank_Mirliva_Septinsular_Republic</a>,  <a href="#Rank_Musir">Rank_Musir</a>,  <a href="#Rank_Musir_Cossack_Hetmanate">Rank_Musir_Cossack_Hetmanate</a>,  <a href="#Rank_Musir_Ottoman_Empire">Rank_Musir_Ottoman_Empire</a>,  <a href="#Rank_Musir_Septinsular_Republic">Rank_Musir_Septinsular_Republic</a>,  <a href="#Rank_Navarch">Rank_Navarch</a>,  <a href="#Rank_Navarch_Achaean_League">Rank_Navarch_Achaean_League</a>,  <a href="#Rank_Navarch_Greece">Rank_Navarch_Greece</a>,  <a href="#Rank_Navarch_Macedonia">Rank_Navarch_Macedonia</a>,  <a href="#Rank_Navarch_Official_Timocracy_of_Sapinetia">Rank_Navarch_Official_Timocracy_of_Sapinetia</a>,  <a href="#Rank_Obergefreiter">Rank_Obergefreiter</a>,  <a href="#Rank_Obergefreiter_Germany">Rank_Obergefreiter_Germany</a>,  <a href="#Rank_Obergefreiter_Switzerland">Rank_Obergefreiter_Switzerland</a>,  <a href="#Rank_Oberst">Rank_Oberst</a>,  <a href="#Rank_Oberst_Austria">Rank_Oberst_Austria</a>,  <a href="#Rank_Oberst_Denmark">Rank_Oberst_Denmark</a>,  <a href="#Rank_Oberst_Finland">Rank_Oberst_Finland</a>,  <a href="#Rank_Oberst_Germany">Rank_Oberst_Germany</a>,  <a href="#Rank_Oberst_Kingdom_of_Denmark">Rank_Oberst_Kingdom_of_Denmark</a>,  <a href="#Rank_Oberst_Norway">Rank_Oberst_Norway</a>,  <a href="#Rank_Oberst_Sweden">Rank_Oberst_Sweden</a>,  <a href="#Rank_Oberst_Switzerland">Rank_Oberst_Switzerland</a>,  <a href="#Rank_Oberstleutnant_Germany">Rank_Oberstleutnant_Germany</a>,  <a href="#Rank_Officer_cadet_EnglishTradition">Rank_Officer_cadet_EnglishTradition</a>,  <a href="#Rank_Ordinary_seaman_rating">Rank_Ordinary_seaman_rating</a>,  <a href="#Rank_Ordinary_seaman_rating_Australia">Rank_Ordinary_seaman_rating_Australia</a>,  <a href="#Rank_Ordinary_seaman_rating_Canada">Rank_Ordinary_seaman_rating_Canada</a>,  <a href="#Rank_Ordinary_seaman_rating_Commonwealth_of_Nations">Rank_Ordinary_seaman_rating_Commonwealth_of_Nations</a>,  <a href="#Rank_Petty_officer_EnglishTradition">Rank_Petty_officer_EnglishTradition</a>,  <a href="#Rank_Phrourarch">Rank_Phrourarch</a>,  <a href="#Rank_Phrourarch_Achaean_League">Rank_Phrourarch_Achaean_League</a>,  <a href="#Rank_Phrourarch_Greece">Rank_Phrourarch_Greece</a>,  <a href="#Rank_Phrourarch_Macedonia">Rank_Phrourarch_Macedonia</a>,  <a href="#Rank_Phrourarch_Official_Timocracy_of_Sapinetia">Rank_Phrourarch_Official_Timocracy_of_Sapinetia</a>,  <a href="#Rank_Pilot_officer_EnglishTradition">Rank_Pilot_officer_EnglishTradition</a>,  <a href="#Rank_Pipe_Major">Rank_Pipe_Major</a>,  <a href="#Rank_Pipe_Major_Commonwealth_of_Nations">Rank_Pipe_Major_Commonwealth_of_Nations</a>,  <a href="#Rank_Pipe_Major_England">Rank_Pipe_Major_England</a>,  <a href="#Rank_Pipe_Major_Scotland">Rank_Pipe_Major_Scotland</a>,  <a href="#Rank_Pipe_Major_Wales">Rank_Pipe_Major_Wales</a>,  <a href="#Rank_Podpolkovnik">Rank_Podpolkovnik</a>,  <a href="#Rank_Podpolkovnik_Poland">Rank_Podpolkovnik_Poland</a>,  <a href="#Rank_Podpolkovnik_Russia">Rank_Podpolkovnik_Russia</a>,  <a href="#Rank_Podpolkovnik_Soviet_Union">Rank_Podpolkovnik_Soviet_Union</a>,  <a href="#Rank_Podpolkovnik_Ukraine">Rank_Podpolkovnik_Ukraine</a>,  <a href="#Rank_Podpraporshchik">Rank_Podpraporshchik</a>,  <a href="#Rank_Podpraporshchik_Russia">Rank_Podpraporshchik_Russia</a>,  <a href="#Rank_Podpraporshchik_Soviet_Union">Rank_Podpraporshchik_Soviet_Union</a>,  <a href="#Rank_Polemarch">Rank_Polemarch</a>,  <a href="#Rank_Polemarch_Achaean_League">Rank_Polemarch_Achaean_League</a>,  <a href="#Rank_Polemarch_Macedonia">Rank_Polemarch_Macedonia</a>,  <a href="#Rank_Polkovnik">Rank_Polkovnik</a>,  <a href="#Rank_Polkovnik_Poland">Rank_Polkovnik_Poland</a>,  <a href="#Rank_Polkovnik_Russia">Rank_Polkovnik_Russia</a>,  <a href="#Rank_Polkovnik_Soviet_Union">Rank_Polkovnik_Soviet_Union</a>,  <a href="#Rank_Polkovnik_Ukraine">Rank_Polkovnik_Ukraine</a>,  <a href="#Rank_Poruchik">Rank_Poruchik</a>,  <a href="#Rank_Poruchik_Poland">Rank_Poruchik_Poland</a>,  <a href="#Rank_Poruchik_Russia">Rank_Poruchik_Russia</a>,  <a href="#Rank_Poruchik_Soviet_Union">Rank_Poruchik_Soviet_Union</a>,  <a href="#Rank_Praporshchik">Rank_Praporshchik</a>,  <a href="#Rank_Praporshchik_Russia">Rank_Praporshchik_Russia</a>,  <a href="#Rank_Praporshchik_Soviet_Union">Rank_Praporshchik_Soviet_Union</a>,  <a href="#Rank_Private">Rank_Private</a>,  <a href="#Rank_Private_Australia">Rank_Private_Australia</a>,  <a href="#Rank_Private_Canada">Rank_Private_Canada</a>,  <a href="#Rank_Private_England">Rank_Private_England</a>,  <a href="#Rank_Private_EnglishTradition">Rank_Private_EnglishTradition</a>,  <a href="#Rank_Private_Republic_of_Ireland">Rank_Private_Republic_of_Ireland</a>,  <a href="#Rank_Private_Scotland">Rank_Private_Scotland</a>,  <a href="#Rank_Private_Wales">Rank_Private_Wales</a>,  <a href="#Rank_Rear_admiral">Rank_Rear_admiral</a>,  <a href="#Rank_Rear_admiral_Australia">Rank_Rear_admiral_Australia</a>,  <a href="#Rank_Rear_admiral_Canada">Rank_Rear_admiral_Canada</a>,  <a href="#Rank_Regimental_Quartermaster_Sergeant">Rank_Regimental_Quartermaster_Sergeant</a>,  <a href="#Rank_Regimental_Quartermaster_Sergeant_Australia">Rank_Regimental_Quartermaster_Sergeant_Australia</a>,  <a href="#Rank_Regimental_Quartermaster_Sergeant_Canada">Rank_Regimental_Quartermaster_Sergeant_Canada</a>,  <a href="#Rank_Regimental_Quartermaster_Sergeant_Commonwealth_of_Nations">Rank_Regimental_Quartermaster_Sergeant_Commonwealth_of_Nations</a>,  <a href="#Rank_Regimental_Quartermaster_Sergeant_England">Rank_Regimental_Quartermaster_Sergeant_England</a>,  <a href="#Rank_Regimental_Quartermaster_Sergeant_Republic_of_Ireland">Rank_Regimental_Quartermaster_Sergeant_Republic_of_Ireland</a>,  <a href="#Rank_Regimental_Quartermaster_Sergeant_Scotland">Rank_Regimental_Quartermaster_Sergeant_Scotland</a>,  <a href="#Rank_Regimental_Quartermaster_Sergeant_Wales">Rank_Regimental_Quartermaster_Sergeant_Wales</a>,  <a href="#Rank_Regimental_sergeant_major">Rank_Regimental_sergeant_major</a>,  <a href="#Rank_Regimental_sergeant_major_Australia">Rank_Regimental_sergeant_major_Australia</a>,  <a href="#Rank_Regimental_sergeant_major_Commonwealth_of_Nations">Rank_Regimental_sergeant_major_Commonwealth_of_Nations</a>,  <a href="#Rank_Regimental_sergeant_major_Singapore">Rank_Regimental_sergeant_major_Singapore</a>,  <a href="#Rank_Sangsa">Rank_Sangsa</a>,  <a href="#Rank_Sangsa_North_Korea">Rank_Sangsa_North_Korea</a>,  <a href="#Rank_Sangsa_South_Korea">Rank_Sangsa_South_Korea</a>,  <a href="#Rank_Schout-bij-nacht">Rank_Schout-bij-nacht</a>,  <a href="#Rank_Schout-bij-nacht_Netherlands">Rank_Schout-bij-nacht_Netherlands</a>,  <a href="#Rank_Schout-bij-nacht_Russia">Rank_Schout-bij-nacht_Russia</a>,  <a href="#Rank_Schout-bij-nacht_Soviet_Union">Rank_Schout-bij-nacht_Soviet_Union</a>,  <a href="#Rank_Seaman_EnglishTradition">Rank_Seaman_EnglishTradition</a>,  <a href="#Rank_Second_Corporal">Rank_Second_Corporal</a>,  <a href="#Rank_Second_Corporal_England">Rank_Second_Corporal_England</a>,  <a href="#Rank_Second_Corporal_Scotland">Rank_Second_Corporal_Scotland</a>,  <a href="#Rank_Second_Corporal_Wales">Rank_Second_Corporal_Wales</a>,  <a href="#Rank_Second_lieutenant_EnglishTradition">Rank_Second_lieutenant_EnglishTradition</a>,  <a href="#Rank_Sergeant_EnglishTradition">Rank_Sergeant_EnglishTradition</a>,  <a href="#Rank_Sergeant_major_EnglishTradition">Rank_Sergeant_major_EnglishTradition</a>,  <a href="#Rank_Sergeant_Major_Instructor">Rank_Sergeant_Major_Instructor</a>,  <a href="#Rank_Sergeant_Major_Instructor_England">Rank_Sergeant_Major_Instructor_England</a>,  <a href="#Rank_Sergeant_Major_Instructor_Scotland">Rank_Sergeant_Major_Instructor_Scotland</a>,  <a href="#Rank_Sergeant_Major_Instructor_Wales">Rank_Sergeant_Major_Instructor_Wales</a>,  <a href="#Rank_Sergeant_Pilot">Rank_Sergeant_Pilot</a>,  <a href="#Rank_Sergeant_Pilot_Australia">Rank_Sergeant_Pilot_Australia</a>,  <a href="#Rank_Sergeant_Pilot_Canada">Rank_Sergeant_Pilot_Canada</a>,  <a href="#Rank_Sergeant_Pilot_Commonwealth_of_Nations">Rank_Sergeant_Pilot_Commonwealth_of_Nations</a>,  <a href="#Rank_Sergeant_Pilot_England">Rank_Sergeant_Pilot_England</a>,  <a href="#Rank_Sergeant_Pilot_Scotland">Rank_Sergeant_Pilot_Scotland</a>,  <a href="#Rank_Sergeant_Pilot_Wales">Rank_Sergeant_Pilot_Wales</a>,  <a href="#Rank_Skeuophoros">Rank_Skeuophoros</a>,  <a href="#Rank_Skeuophoros_Achaean_League">Rank_Skeuophoros_Achaean_League</a>,  <a href="#Rank_Skeuophoros_Macedonia">Rank_Skeuophoros_Macedonia</a>,  <a href="#Rank_Somatophylakes">Rank_Somatophylakes</a>,  <a href="#Rank_Somatophylakes_Achaean_League">Rank_Somatophylakes_Achaean_League</a>,  <a href="#Rank_Somatophylakes_Macedonia">Rank_Somatophylakes_Macedonia</a>,  <a href="#Rank_Sotnik">Rank_Sotnik</a>,  <a href="#Rank_Sotnik_Russia">Rank_Sotnik_Russia</a>,  <a href="#Rank_Sotnik_Soviet_Union">Rank_Sotnik_Soviet_Union</a>,  <a href="#Rank_Sotnik_Ukraine">Rank_Sotnik_Ukraine</a>,  <a href="#Rank_Sowi">Rank_Sowi</a>,  <a href="#Rank_Sowi_North_Korea">Rank_Sowi_North_Korea</a>,  <a href="#Rank_Sowi_South_Korea">Rank_Sowi_South_Korea</a>,  <a href="#Rank_Squadron_leader_EnglishTradition">Rank_Squadron_leader_EnglishTradition</a>,  <a href="#Rank_Staabikapten">Rank_Staabikapten</a>,  <a href="#Rank_Staabikapten_Estonia">Rank_Staabikapten_Estonia</a>,  <a href="#Rank_Staabikapten_Republic_of_Estonia_1920-1940">Rank_Staabikapten_Republic_of_Estonia_1920-1940</a>,  <a href="#Rank_Stabskapitan">Rank_Stabskapitan</a>,  <a href="#Rank_Stabskapitan_Germany">Rank_Stabskapitan_Germany</a>,  <a href="#Rank_Stabskapitan_Russia">Rank_Stabskapitan_Russia</a>,  <a href="#Rank_Stabskapitan_Soviet_Union">Rank_Stabskapitan_Soviet_Union</a>,  <a href="#Rank_Stabskapitanleutnant_Germany">Rank_Stabskapitanleutnant_Germany</a>,  <a href="#Rank_Staff_Corporal">Rank_Staff_Corporal</a>,  <a href="#Rank_Staff_Corporal_England">Rank_Staff_Corporal_England</a>,  <a href="#Rank_Staff_Corporal_Scotland">Rank_Staff_Corporal_Scotland</a>,  <a href="#Rank_Staff_Corporal_Wales">Rank_Staff_Corporal_Wales</a>,  <a href="#Rank_Staff_sergeant">Rank_Staff_sergeant</a>,  <a href="#Rank_Staff_sergeant_Australia">Rank_Staff_sergeant_Australia</a>,  <a href="#Rank_Staff_sergeant_Canada">Rank_Staff_sergeant_Canada</a>,  <a href="#Rank_Staff_sergeant_Commonwealth_of_Nations">Rank_Staff_sergeant_Commonwealth_of_Nations</a>,  <a href="#Rank_Staff_Sergeant_Major">Rank_Staff_Sergeant_Major</a>,  <a href="#Rank_Staff_Sergeant_Major_England">Rank_Staff_Sergeant_Major_England</a>,  <a href="#Rank_Staff_Sergeant_Major_Scotland">Rank_Staff_Sergeant_Major_Scotland</a>,  <a href="#Rank_Staff_Sergeant_Major_Wales">Rank_Staff_Sergeant_Major_Wales</a>,  <a href="#Rank_Staff_sergeant_Singapore">Rank_Staff_sergeant_Singapore</a>,  <a href="#Rank_Starshina">Rank_Starshina</a>,  <a href="#Rank_Starshina_Russia">Rank_Starshina_Russia</a>,  <a href="#Rank_Starshina_Soviet_Union">Rank_Starshina_Soviet_Union</a>,  <a href="#Rank_Starshina_Ukraine">Rank_Starshina_Ukraine</a>,  <a href="#Rank_Stratarches">Rank_Stratarches</a>,  <a href="#Rank_Stratarches_Byzantine_Empire">Rank_Stratarches_Byzantine_Empire</a>,  <a href="#Rank_Stratarches_Greece">Rank_Stratarches_Greece</a>,  <a href="#Rank_Stratarches_Official_Timocracy_of_Sapinetia">Rank_Stratarches_Official_Timocracy_of_Sapinetia</a>,  <a href="#Rank_Strategos">Rank_Strategos</a>,  <a href="#Rank_Strategos_Achaean_League">Rank_Strategos_Achaean_League</a>,  <a href="#Rank_Strategos_autokrator_Byzantine_Empire">Rank_Strategos_autokrator_Byzantine_Empire</a>,  <a href="#Rank_Strategos_Byzantine_Empire">Rank_Strategos_Byzantine_Empire</a>,  <a href="#Rank_Strategos_Greece">Rank_Strategos_Greece</a>,  <a href="#Rank_Strategos_Macedonia">Rank_Strategos_Macedonia</a>,  <a href="#Rank_Strategos_Official_Timocracy_of_Sapinetia">Rank_Strategos_Official_Timocracy_of_Sapinetia</a>,  <a href="#Rank_Sub-lieutenant_EnglishTradition">Rank_Sub-lieutenant_EnglishTradition</a>,  <a href="#Rank_Suba%C5%9Fi">Rank_Suba%C5%9Fi</a>,  <a href="#Rank_Subaltern">Rank_Subaltern</a>,  <a href="#Rank_Subaltern_England">Rank_Subaltern_England</a>,  <a href="#Rank_Subaltern_Scotland">Rank_Subaltern_Scotland</a>,  <a href="#Rank_Subaltern_Wales">Rank_Subaltern_Wales</a>,  <a href="#Rank_Subasi_Cossack_Hetmanate">Rank_Subasi_Cossack_Hetmanate</a>,  <a href="#Rank_Subasi_Ottoman_Empire">Rank_Subasi_Ottoman_Empire</a>,  <a href="#Rank_Subasi_Septinsular_Republic">Rank_Subasi_Septinsular_Republic</a>,  <a href="#Rank_Syntagmatarchis">Rank_Syntagmatarchis</a>,  <a href="#Rank_Syntagmatarchis_Achaean_League">Rank_Syntagmatarchis_Achaean_League</a>,  <a href="#Rank_Syntagmatarchis_Greece">Rank_Syntagmatarchis_Greece</a>,  <a href="#Rank_Syntagmatarchis_Macedonia">Rank_Syntagmatarchis_Macedonia</a>,  <a href="#Rank_Syntagmatarchis_Official_Timocracy_of_Sapinetia">Rank_Syntagmatarchis_Official_Timocracy_of_Sapinetia</a>,  <a href="#Rank_Tagmatarchis">Rank_Tagmatarchis</a>,  <a href="#Rank_Tagmatarchis_Achaean_League">Rank_Tagmatarchis_Achaean_League</a>,  <a href="#Rank_Tagmatarchis_Greece">Rank_Tagmatarchis_Greece</a>,  <a href="#Rank_Tagmatarchis_Macedonia">Rank_Tagmatarchis_Macedonia</a>,  <a href="#Rank_Tagmatarchis_Official_Timocracy_of_Sapinetia">Rank_Tagmatarchis_Official_Timocracy_of_Sapinetia</a>,  <a href="#Rank_Taxiarch">Rank_Taxiarch</a>,  <a href="#Rank_Taxiarch_Achaean_League">Rank_Taxiarch_Achaean_League</a>,  <a href="#Rank_Taxiarch_Byzantine_Empire">Rank_Taxiarch_Byzantine_Empire</a>,  <a href="#Rank_Taxiarch_Greece">Rank_Taxiarch_Greece</a>,  <a href="#Rank_Taxiarch_Macedonia">Rank_Taxiarch_Macedonia</a>,  <a href="#Rank_Taxiarch_Official_Timocracy_of_Sapinetia">Rank_Taxiarch_Official_Timocracy_of_Sapinetia</a>,  <a href="#Rank_Tetrarch">Rank_Tetrarch</a>,  <a href="#Rank_Tetrarch_Achaean_League">Rank_Tetrarch_Achaean_League</a>,  <a href="#Rank_Tetrarch_Macedonia">Rank_Tetrarch_Macedonia</a>,  <a href="#Rank_Trierarch">Rank_Trierarch</a>,  <a href="#Rank_Trierarch_Achaean_League">Rank_Trierarch_Achaean_League</a>,  <a href="#Rank_Trierarch_Macedonia">Rank_Trierarch_Macedonia</a>,  <a href="#Rank_Trooper">Rank_Trooper</a>,  <a href="#Rank_Trooper_Australia">Rank_Trooper_Australia</a>,  <a href="#Rank_Trooper_Canada">Rank_Trooper_Canada</a>,  <a href="#Rank_Trooper_Commonwealth_of_Nations">Rank_Trooper_Commonwealth_of_Nations</a>,  <a href="#Rank_Trumpet_Major">Rank_Trumpet_Major</a>,  <a href="#Rank_Trumpet_Major_Commonwealth_of_Nations">Rank_Trumpet_Major_Commonwealth_of_Nations</a>,  <a href="#Rank_Trumpet_Major_England">Rank_Trumpet_Major_England</a>,  <a href="#Rank_Trumpet_Major_Scotland">Rank_Trumpet_Major_Scotland</a>,  <a href="#Rank_Trumpet_Major_Wales">Rank_Trumpet_Major_Wales</a>,  <a href="#Rank_Tysyatsky">Rank_Tysyatsky</a>,  <a href="#Rank_Tysyatsky_Russia">Rank_Tysyatsky_Russia</a>,  <a href="#Rank_Tysyatsky_Soviet_Union">Rank_Tysyatsky_Soviet_Union</a>,  <a href="#Rank_Under_Officer">Rank_Under_Officer</a>,  <a href="#Rank_Under_Officer_Australia">Rank_Under_Officer_Australia</a>,  <a href="#Rank_Under_Officer_Commonwealth_of_Nations">Rank_Under_Officer_Commonwealth_of_Nations</a>,  <a href="#Rank_Under_Officer_England">Rank_Under_Officer_England</a>,  <a href="#Rank_Under_Officer_Scotland">Rank_Under_Officer_Scotland</a>,  <a href="#Rank_Under_Officer_Wales">Rank_Under_Officer_Wales</a>,  <a href="#Rank_Vaapeli">Rank_Vaapeli</a>,  <a href="#Rank_Vaapeli_Finland">Rank_Vaapeli_Finland</a>,  <a href="#Rank_Vaapeli_Sweden">Rank_Vaapeli_Sweden</a>,  <a href="#Rank_Veebel">Rank_Veebel</a>,  <a href="#Rank_Veebel_Estonia">Rank_Veebel_Estonia</a>,  <a href="#Rank_Veebel_Republic_of_Estonia_1920-1940">Rank_Veebel_Republic_of_Estonia_1920-1940</a>,  <a href="#Rank_Vice-Admiral_of_the_Coast">Rank_Vice-Admiral_of_the_Coast</a>,  <a href="#Rank_Vice-Admiral_of_the_Coast_England">Rank_Vice-Admiral_of_the_Coast_England</a>,  <a href="#Rank_Vice-Admiral_of_the_Coast_Scotland">Rank_Vice-Admiral_of_the_Coast_Scotland</a>,  <a href="#Rank_Vice-Admiral_of_the_Coast_Wales">Rank_Vice-Admiral_of_the_Coast_Wales</a>,  <a href="#Rank_Vice-Admiral_of_the_West">Rank_Vice-Admiral_of_the_West</a>,  <a href="#Rank_Vice-Admiral_of_the_West_England">Rank_Vice-Admiral_of_the_West_England</a>,  <a href="#Rank_Vice-Admiral_of_the_West_Scotland">Rank_Vice-Admiral_of_the_West_Scotland</a>,  <a href="#Rank_Vice-Admiral_of_the_West_Wales">Rank_Vice-Admiral_of_the_West_Wales</a>,  <a href="#Rank_Vice_admiral">Rank_Vice_admiral</a>,  <a href="#Rank_Vice_admiral_Australia">Rank_Vice_admiral_Australia</a>,  <a href="#Rank_Vice_admiral_Australia_Australia">Rank_Vice_admiral_Australia_Australia</a>,  <a href="#Rank_Vice_admiral_Canada">Rank_Vice_admiral_Canada</a>,  <a href="#Rank_Wachtmeister">Rank_Wachtmeister</a>,  <a href="#Rank_Wachtmeister_Germany">Rank_Wachtmeister_Germany</a>,  <a href="#Rank_Wachtmeister_Russia">Rank_Wachtmeister_Russia</a>,  <a href="#Rank_Wachtmeister_Soviet_Union">Rank_Wachtmeister_Soviet_Union</a>,  <a href="#Rank_Warrant_officer_EnglishTradition">Rank_Warrant_officer_EnglishTradition</a>,  <a href="#Rank_Warrant_officer_United_Kingdom">Rank_Warrant_officer_United_Kingdom</a>,  <a href="#Rank_Warrant_officer_United_Kingdom_Australia">Rank_Warrant_officer_United_Kingdom_Australia</a>,  <a href="#Rank_Warrant_officer_United_Kingdom_Canada">Rank_Warrant_officer_United_Kingdom_Canada</a>,  <a href="#Rank_Warrant_officer_United_Kingdom_Commonwealth_of_Nations">Rank_Warrant_officer_United_Kingdom_Commonwealth_of_Nations</a>,  <a href="#Rank_Warrant_officer_United_Kingdom_England">Rank_Warrant_officer_United_Kingdom_England</a>,  <a href="#Rank_Warrant_officer_United_Kingdom_Scotland">Rank_Warrant_officer_United_Kingdom_Scotland</a>,  <a href="#Rank_Warrant_officer_United_Kingdom_Wales">Rank_Warrant_officer_United_Kingdom_Wales</a>,  <a href="#Rank_Wing_commander">Rank_Wing_commander</a>,  <a href="#Rank_Wing_commander_(rank)_EnglishTradition">Rank_Wing_commander_(rank)_EnglishTradition</a>,  <a href="#Rank_Wing_commander_Australia">Rank_Wing_commander_Australia</a>,  <a href="#Rank_Wing_commander_Canada">Rank_Wing_commander_Canada</a>,  <a href="#Rank_Wing_commander_Commonwealth_of_Nations">Rank_Wing_commander_Commonwealth_of_Nations</a>,  <a href="#Rank_Wojski">Rank_Wojski</a>,  <a href="#Rank_Wojski_Lithuania">Rank_Wojski_Lithuania</a>,  <a href="#Rank_Wojski_Poland">Rank_Wojski_Poland</a>,  <a href="#Rank_Wonsu">Rank_Wonsu</a>,  <a href="#Rank_Wonsu_North_Korea">Rank_Wonsu_North_Korea</a>,  <a href="#Rank_Wonsu_South_Korea">Rank_Wonsu_South_Korea</a>,  <a href="#Rank_Yesaul">Rank_Yesaul</a>,  <a href="#Rank_Yesaul_Russia">Rank_Yesaul_Russia</a>,  <a href="#Rank_Yesaul_Soviet_Union">Rank_Yesaul_Soviet_Union</a>,  <a href="#Rank_Yesaul_Ukraine">Rank_Yesaul_Ukraine</a>,  <a href="#Rank_Ypolochagos">Rank_Ypolochagos</a>,  <a href="#Rank_Ypolochagos_Greece">Rank_Ypolochagos_Greece</a>,  <a href="#Rank_Ypolochagos_Official_Timocracy_of_Sapinetia">Rank_Ypolochagos_Official_Timocracy_of_Sapinetia</a>,  <a href="#RankAbleSeaman">RankAbleSeaman</a>,  <a href="#RankAbleSeaman_Canada">RankAbleSeaman_Canada</a>,  <a href="#RankAbleSeaman_Commonwealth_of_Nations">RankAbleSeaman_Commonwealth_of_Nations</a>,  <a href="#RankBandsmanArmyCanada+">RankBandsmanArmyCanada+</a>,  <a href="#RankBatterySergeantMajorArmyCanada">RankBatterySergeantMajorArmyCanada</a>,  <a href="#RankBombardierArmyCanada">RankBombardierArmyCanada</a>,  <a href="#RankBoyArmyCanada">RankBoyArmyCanada</a>,  <a href="#RankBrigadierGeneralArmyCanada">RankBrigadierGeneralArmyCanada</a>,  <a href="#RankCadetArmyCanada">RankCadetArmyCanada</a>,  <a href="#RankCaptainArmyCanada">RankCaptainArmyCanada</a>,  <a href="#RankCaptainNaval">RankCaptainNaval</a>,  <a href="#RankCaptainNaval_Australia">RankCaptainNaval_Australia</a>,  <a href="#RankCaptainNaval_Canada">RankCaptainNaval_Canada</a>,  <a href="#RankCenturion">RankCenturion</a>,  <a href="#RankChaplainArmyCanada">RankChaplainArmyCanada</a>,  <a href="#RankClerkArmyCanada+">RankClerkArmyCanada+</a>,  <a href="#RankColonelArmyCanada">RankColonelArmyCanada</a>,  <a href="#RankCombatMilitaryRank">RankCombatMilitaryRank</a>,  <a href="#RankCombatMilitaryRank_Russia">RankCombatMilitaryRank_Russia</a>,  <a href="#RankCombatMilitaryRank_Soviet_Union">RankCombatMilitaryRank_Soviet_Union</a>,  <a href="#RankCommandant">RankCommandant</a>,  <a href="#RankCommandant_France">RankCommandant_France</a>,  <a href="#RankCommandant_Republic_of_Ireland">RankCommandant_Republic_of_Ireland</a>,  <a href="#RankCompanyQuarterMasterSergeantArmyCanada+">RankCompanyQuarterMasterSergeantArmyCanada+</a>,  <a href="#RankCompanySergeantMajor">RankCompanySergeantMajor</a>,  <a href="#RankCompanySergeantMajorArmyCanada">RankCompanySergeantMajorArmyCanada</a>,  <a href="#RankConductorArmyCanada">RankConductorArmyCanada</a>,  <a href="#RankCorporalArmyCanada+">RankCorporalArmyCanada+</a>,  <a href="#RankDriver">RankDriver</a>,  <a href="#RankDriver_Australia">RankDriver_Australia</a>,  <a href="#RankDriver_Canada">RankDriver_Canada</a>,  <a href="#RankDriverArmyCanada">RankDriverArmyCanada</a>,  <a href="#RankGeneralArmyCanada">RankGeneralArmyCanada</a>,  <a href="#RankGunner">RankGunner</a>,  <a href="#RankGunnerArmyCanada">RankGunnerArmyCanada</a>,  <a href="#RankLanceCorporalArmyCanada">RankLanceCorporalArmyCanada</a>,  <a href="#RankLanceSergeantArmyCanada+">RankLanceSergeantArmyCanada+</a>,  <a href="#RankLeadingStoker">RankLeadingStoker</a>,  <a href="#RankLieutenantArmyCanada">RankLieutenantArmyCanada</a>,  <a href="#RankLieutenantColonelArmyCanada">RankLieutenantColonelArmyCanada</a>,  <a href="#RankLieutenantColonelArmyCanada+">RankLieutenantColonelArmyCanada+</a>,  <a href="#RankLieutenantGeneralArmyCanada">RankLieutenantGeneralArmyCanada</a>,  <a href="#RankMajorArmyCanada">RankMajorArmyCanada</a>,  <a href="#RankMasterGunnerArmyCanada">RankMasterGunnerArmyCanada</a>,  <a href="#RankNursingSisterArmyCanada">RankNursingSisterArmyCanada</a>,  <a href="#RankOrderlyRoomSergeantArmyCanada">RankOrderlyRoomSergeantArmyCanada</a>,  <a href="#RankPioneerArmyCanada">RankPioneerArmyCanada</a>,  <a href="#RankPrivateArmyCanada">RankPrivateArmyCanada</a>,  <a href="#RankQuartermasterSergeantArmyCanada">RankQuartermasterSergeantArmyCanada</a>,  <a href="#RankQuartermasterSergeantMajorArmyCanada">RankQuartermasterSergeantMajorArmyCanada</a>,  <a href="#RankRegimentalSergeantMajorArmyCanada">RankRegimentalSergeantMajorArmyCanada</a>,  <a href="#RankRiflemanArmyCanada">RankRiflemanArmyCanada</a>,  <a href="#RankSaddlerArmyCanada">RankSaddlerArmyCanada</a>,  <a href="#RankSapper">RankSapper</a>,  <a href="#RankSapperArmyCanada">RankSapperArmyCanada</a>,  <a href="#RankScoutArmyCanada">RankScoutArmyCanada</a>,  <a href="#RankSecondCorporalArmyCanada">RankSecondCorporalArmyCanada</a>,  <a href="#RankSecondLieutenantArmyCanada">RankSecondLieutenantArmyCanada</a>,  <a href="#RankSergeant">RankSergeant</a>,  <a href="#RankSergeantArmyCanada">RankSergeantArmyCanada</a>,  <a href="#RankSergeantMajorArmyCanada">RankSergeantMajorArmyCanada</a>,  <a href="#RankSignaller">RankSignaller</a>,  <a href="#RankSignallerArmyCanada">RankSignallerArmyCanada</a>,  <a href="#RankSquadronSergeantMajorArmyCanada+">RankSquadronSergeantMajorArmyCanada+</a>,  <a href="#RankStaffSergeantArmyCanada">RankStaffSergeantArmyCanada</a>,  <a href="#RankStoker">RankStoker</a>,  <a href="#RankTrooperArmyCanada">RankTrooperArmyCanada</a>,  <a href="#RankWarrantOfficerArmyCanada">RankWarrantOfficerArmyCanada</a>,  <a href="#Signifer">Signifer</a>,  <a href="#spacethefinalfrontier">spacethefinalfrontier</a>,  <a href="#Velites">Velites</a>,  <a href="#Venator">Venator</a>,  <a href="#Veteranus">Veteranus</a>,  <a href="#vexillatio">vexillatio</a>, 
 </p><p>Dictionaries:  <a href="#NavyServiceBranch">NavyServiceBranch</a>,  <a href="#ArmyServiceBranch">ArmyServiceBranch</a>,  <a href="#AirForceServiceBranch">AirForceServiceBranch</a>,  <a href="#ProtoAirForce">ProtoAirForce</a>, 
 </p>
@@ -1830,7 +1830,7 @@
 
 <div class="specterm" id="ActingRank">
 <h3>Class: mil:ActingRank</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ActingRank">http://rdf.muninn-project.org/ontologies/military#ActingRank</a></p><p><em>Acting Rank (Military)</em> - An acting military rank. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ActingRank">http://rdf.muninn-project.org/ontologies/military#ActingRank</a></p><p><em>Acting Rank (Military)</em> - An acting military rank. </p><p>Comment: An acting military rank. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -1846,7 +1846,7 @@
 
 <div class="specterm" id="AirForceCommand">
 <h3>Class: mil:AirForceCommand</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceCommand">http://rdf.muninn-project.org/ontologies/military#AirForceCommand</a></p><p><em>Command (Air Force)</em> - An air force command. eg: Bomber Command. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceCommand">http://rdf.muninn-project.org/ontologies/military#AirForceCommand</a></p><p><em>Command (Air Force)</em> - An air force command. eg: Bomber Command. </p><p>Comment: An air force command. eg: Bomber Command. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -1854,7 +1854,7 @@
 
 <div class="specterm" id="AirForceDetail">
 <h3>Class: mil:AirForceDetail</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceDetail">http://rdf.muninn-project.org/ontologies/military#AirForceDetail</a></p><p><em>Detail (Air Force)</em> - A detail from an Air Force flight. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceDetail">http://rdf.muninn-project.org/ontologies/military#AirForceDetail</a></p><p><em>Detail (Air Force)</em> - A detail from an Air Force flight. </p><p>Comment: A detail from an Air Force flight. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -1862,7 +1862,7 @@
 
 <div class="specterm" id="AirForceGroup">
 <h3>Class: mil:AirForceGroup</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceGroup">http://rdf.muninn-project.org/ontologies/military#AirForceGroup</a></p><p><em>Group (military aviation unit)</em> - A group is a military aviation unit, a component of military organization and a military formation. Usage of the terms group and wing differ from one country to another, as well as different branches of a defence force, in some cases. Groups therefore vary considerably in size. In most air services and most countries, a group is made up of two to four squadrons and is commanded by a Lieutenant Colonel, Commander or similar ranks. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceGroup">http://rdf.muninn-project.org/ontologies/military#AirForceGroup</a></p><p><em>Group (military aviation unit)</em> - A group is a military aviation unit, a component of military organization and a military formation. Usage of the terms group and wing differ from one country to another, as well as different branches of a defence force, in some cases. Groups therefore vary considerably in size. In most air services and most countries, a group is made up of two to four squadrons and is commanded by a Lieutenant Colonel, Commander or similar ranks. </p><p>Comment: A group is a military aviation unit, a component of military organization and a military formation. Usage of the terms group and wing differ from one country to another, as well as different branches of a defence force, in some cases. Groups therefore vary considerably in size. In most air services and most countries, a group is made up of two to four squadrons and is commanded by a Lieutenant Colonel, Commander or similar ranks. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Group_(military_aviation_unit)" style="font-family: monospace;">dbpedia:Group_(military_aviation_unit)</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -1880,7 +1880,7 @@
 
 <div class="specterm" id="AirForceSquadron">
 <h3>Class: mil:AirForceSquadron</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceSquadron">http://rdf.muninn-project.org/ontologies/military#AirForceSquadron</a></p><p><em>Squadron (aviation)</em> - A squadron in air force, army aviation or naval aviation is mainly a unit comprising a number of military aircraft, usually of the same type, typically with 12 to 24 aircraft, sometimes divided into three or four flights, depending on aircraft type and air force. In most air forces, two or more squadrons form a group or wing. Some air forces also use the term squadrons for non-flying ground units. An escadron is the equivalent unit in France's Armée de l'Air. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceSquadron">http://rdf.muninn-project.org/ontologies/military#AirForceSquadron</a></p><p><em>Squadron (aviation)</em> - A squadron in air force, army aviation or naval aviation is mainly a unit comprising a number of military aircraft, usually of the same type, typically with 12 to 24 aircraft, sometimes divided into three or four flights, depending on aircraft type and air force. In most air forces, two or more squadrons form a group or wing. Some air forces also use the term squadrons for non-flying ground units. An escadron is the equivalent unit in France's Armée de l'Air. </p><p>Comment: A squadron in air force, army aviation or naval aviation is mainly a unit comprising a number of military aircraft, usually of the same type, typically with 12 to 24 aircraft, sometimes divided into three or four flights, depending on aircraft type and air force. In most air forces, two or more squadrons form a group or wing. Some air forces also use the term squadrons for non-flying ground units. An escadron is the equivalent unit in France's Armée de l'Air. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Squadron_(aviation)" style="font-family: monospace;">dbpedia:Squadron_(aviation)</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -1890,7 +1890,7 @@
 
 <div class="specterm" id="AirForceStation">
 <h3>Class: mil:AirForceStation</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceStation">http://rdf.muninn-project.org/ontologies/military#AirForceStation</a></p><p><em>Station (Air Force)</em> - An Air Force station. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceStation">http://rdf.muninn-project.org/ontologies/military#AirForceStation</a></p><p><em>Station (Air Force)</em> - An Air Force station. </p><p>Comment: An Air Force station. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -1898,7 +1898,7 @@
 
 <div class="specterm" id="AirForceStationRAF">
 <h3>Class: mil:AirForceStationRAF</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceStationRAF">http://rdf.muninn-project.org/ontologies/military#AirForceStationRAF</a></p><p><em>Royal Air Force station</em> - A Royal Air Force station is a permanent Royal Air Force operations location. Many RAF stations are aerodromes, or airbases, being the home to one or more flying squadrons. Other RAF stations are training units, administrative units, headquarters (HQ), or carry out ground-based operational tasks. Although many RAF units are often called stations, they can only be properly classified as an RAF station if they are self-accounting with their own station commander and headquarters. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceStationRAF">http://rdf.muninn-project.org/ontologies/military#AirForceStationRAF</a></p><p><em>Royal Air Force station</em> - A Royal Air Force station is a permanent Royal Air Force operations location. Many RAF stations are aerodromes, or airbases, being the home to one or more flying squadrons. Other RAF stations are training units, administrative units, headquarters (HQ), or carry out ground-based operational tasks. Although many RAF units are often called stations, they can only be properly classified as an RAF station if they are self-accounting with their own station commander and headquarters. </p><p>Comment: A Royal Air Force station is a permanent Royal Air Force operations location. Many RAF stations are aerodromes, or airbases, being the home to one or more flying squadrons. Other RAF stations are training units, administrative units, headquarters (HQ), or carry out ground-based operational tasks. Although many RAF units are often called stations, they can only be properly classified as an RAF station if they are self-accounting with their own station commander and headquarters. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Royal_Air_Force_station" style="font-family: monospace;">dbpedia:Royal_Air_Force_station</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -1908,7 +1908,7 @@
 
 <div class="specterm" id="AirForceWing">
 <h3>Class: mil:AirForceWing</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceWing">http://rdf.muninn-project.org/ontologies/military#AirForceWing</a></p><p><em>Wing (military aviation unit)</em> - Wing is a term used by different military aviation forces for a unit of command. The terms wing, group or Staffel are used for different-sized units from one country or service to another. In some military aviation services, a wing is a relatively large formation of two or more groups, which in turn control two or more squadrons. In other contexts a wing is a smaller unit, comprising two to four squadrons, with several wings forming a group. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#AirForceWing">http://rdf.muninn-project.org/ontologies/military#AirForceWing</a></p><p><em>Wing (military aviation unit)</em> - Wing is a term used by different military aviation forces for a unit of command. The terms wing, group or Staffel are used for different-sized units from one country or service to another. In some military aviation services, a wing is a relatively large formation of two or more groups, which in turn control two or more squadrons. In other contexts a wing is a smaller unit, comprising two to four squadrons, with several wings forming a group. </p><p>Comment: Wing is a term used by different military aviation forces for a unit of command. The terms wing, group or Staffel are used for different-sized units from one country or service to another. In some military aviation services, a wing is a relatively large formation of two or more groups, which in turn control two or more squadrons. In other contexts a wing is a smaller unit, comprising two to four squadrons, with several wings forming a group. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Wing_(military_aviation_unit)" style="font-family: monospace;">dbpedia:Wing_(military_aviation_unit)</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -1918,7 +1918,7 @@
 
 <div class="specterm" id="Appointment">
 <h3>Class: mil:Appointment</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Appointment">http://rdf.muninn-project.org/ontologies/military#Appointment</a></p><p><em>Appointment (Civil)</em> - An appointment / function in a Civil Organization. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Appointment">http://rdf.muninn-project.org/ontologies/military#Appointment</a></p><p><em>Appointment (Civil)</em> - An appointment / function in a Civil Organization. </p><p>Comment: An appointment / function in a Civil Organization. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -1926,7 +1926,7 @@
 
 <div class="specterm" id="ArmsType">
 <h3>Class: mil:ArmsType</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArmsType">http://rdf.muninn-project.org/ontologies/military#ArmsType</a></p><p><em>Arms Type(Military)</em> - The category of arms in use </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArmsType">http://rdf.muninn-project.org/ontologies/military#ArmsType</a></p><p><em>Arms Type(Military)</em> - The category of arms in use </p><p>Comment: The category of arms in use </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -1934,7 +1934,7 @@
 
 <div class="specterm" id="ArmyCompany">
 <h3>Class: mil:ArmyCompany</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArmyCompany">http://rdf.muninn-project.org/ontologies/military#ArmyCompany</a></p><p><em>Company (Military Unit)</em> - A military company </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArmyCompany">http://rdf.muninn-project.org/ontologies/military#ArmyCompany</a></p><p><em>Company (Military Unit)</em> - A military company </p><p>Comment: A military company </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Company_(military_unit)" style="font-family: monospace;">dbpedia:Company_(military_unit)</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -1944,7 +1944,7 @@
 
 <div class="specterm" id="ArmyFront">
 <h3>Class: mil:ArmyFront</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArmyFront">http://rdf.muninn-project.org/ontologies/military#ArmyFront</a></p><p><em>Front (military formation)</em> - A front was a major military formation. Appearing to originate with the Russian Empire, it has been used by the Polish Army, the Red Army and Soviet Army, and by Turkey. It was roughly equivalent to an army group in the militaries of most other countries. It should not to be confused with the more general usage of military front, describing a geographic area in wartime. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArmyFront">http://rdf.muninn-project.org/ontologies/military#ArmyFront</a></p><p><em>Front (military formation)</em> - A front was a major military formation. Appearing to originate with the Russian Empire, it has been used by the Polish Army, the Red Army and Soviet Army, and by Turkey. It was roughly equivalent to an army group in the militaries of most other countries. It should not to be confused with the more general usage of military front, describing a geographic area in wartime. </p><p>Comment: A front was a major military formation. Appearing to originate with the Russian Empire, it has been used by the Polish Army, the Red Army and Soviet Army, and by Turkey. It was roughly equivalent to an army group in the militaries of most other countries. It should not to be confused with the more general usage of military front, describing a geographic area in wartime. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Front_(military_formation)" style="font-family: monospace;">dbpedia:Front_(military_formation)</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -1954,7 +1954,7 @@
 
 <div class="specterm" id="ArmyGroup">
 <h3>Class: mil:ArmyGroup</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArmyGroup">http://rdf.muninn-project.org/ontologies/military#ArmyGroup</a></p><p><em>Army Group</em> - A field army containing Corps, Brigades, Divisions, etc... </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArmyGroup">http://rdf.muninn-project.org/ontologies/military#ArmyGroup</a></p><p><em>Army Group</em> - A field army containing Corps, Brigades, Divisions, etc... </p><p>Comment: A field army containing Corps, Brigades, Divisions, etc... </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -1992,7 +1992,7 @@
 
 <div class="specterm" id="ArmyTroop">
 <h3>Class: mil:ArmyTroop</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArmyTroop">http://rdf.muninn-project.org/ontologies/military#ArmyTroop</a></p><p><em>Troop (Military)</em> - A generic class for an army troop in the Cavalry or a Corps. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArmyTroop">http://rdf.muninn-project.org/ontologies/military#ArmyTroop</a></p><p><em>Troop (Military)</em> - A generic class for an army troop in the Cavalry or a Corps. </p><p>Comment: A generic class for an army troop in the Cavalry or a Corps. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2018,7 +2018,7 @@
 
 <div class="specterm" id="ArtilleryEmplacement">
 <h3>Class: mil:ArtilleryEmplacement</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArtilleryEmplacement">http://rdf.muninn-project.org/ontologies/military#ArtilleryEmplacement</a></p><p><em>Artillery Emplacement</em> - A prepared location for an artillery peice where a gun may or may not be. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ArtilleryEmplacement">http://rdf.muninn-project.org/ontologies/military#ArtilleryEmplacement</a></p><p><em>Artillery Emplacement</em> - A prepared location for an artillery peice where a gun may or may not be. </p><p>Comment: A prepared location for an artillery peice where a gun may or may not be. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2052,7 +2052,7 @@
 
 <div class="specterm" id="BattleSpace">
 <h3>Class: mil:BattleSpace</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#BattleSpace">http://rdf.muninn-project.org/ontologies/military#BattleSpace</a></p><p><em>Battle Space</em> - A detail from an Air Force flight. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#BattleSpace">http://rdf.muninn-project.org/ontologies/military#BattleSpace</a></p><p><em>Battle Space</em> - A detail from an Air Force flight. </p><p>Comment: A detail from an Air Force flight. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Battlespace" style="font-family: monospace;">dbpedia:Battlespace</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2062,7 +2062,7 @@
 
 <div class="specterm" id="BrevetRank">
 <h3>Class: mil:BrevetRank</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#BrevetRank">http://rdf.muninn-project.org/ontologies/military#BrevetRank</a></p><p><em>Brevet Rank (Military)</em> - A Brevet military rank. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#BrevetRank">http://rdf.muninn-project.org/ontologies/military#BrevetRank</a></p><p><em>Brevet Rank (Military)</em> - A Brevet military rank. </p><p>Comment: A Brevet military rank. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2096,7 +2096,7 @@
 
 <div class="specterm" id="CarrierBattleGroup">
 <h3>Class: mil:CarrierBattleGroup</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#CarrierBattleGroup">http://rdf.muninn-project.org/ontologies/military#CarrierBattleGroup</a></p><p><em>Carrier battle group</em> - A carrier battle group (CVBG) consists of an aircraft carrier (designated CV) and its escorts, together comprising the group. The first naval task forces built around carriers appeared just prior to and during World War II. The Imperial Japanese Navy was the first to assemble a large number of carriers into a single task force, known as Kido Butai. This task force was used with devastating effect during the Pearl Harbor Attack. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#CarrierBattleGroup">http://rdf.muninn-project.org/ontologies/military#CarrierBattleGroup</a></p><p><em>Carrier battle group</em> - A carrier battle group (CVBG) consists of an aircraft carrier (designated CV) and its escorts, together comprising the group. The first naval task forces built around carriers appeared just prior to and during World War II. The Imperial Japanese Navy was the first to assemble a large number of carriers into a single task force, known as Kido Butai. This task force was used with devastating effect during the Pearl Harbor Attack. </p><p>Comment: A carrier battle group (CVBG) consists of an aircraft carrier (designated CV) and its escorts, together comprising the group. The first naval task forces built around carriers appeared just prior to and during World War II. The Imperial Japanese Navy was the first to assemble a large number of carriers into a single task force, known as Kido Butai. This task force was used with devastating effect during the Pearl Harbor Attack. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Carrier_battle_group" style="font-family: monospace;">dbpedia:Carrier_battle_group</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2106,7 +2106,7 @@
 
 <div class="specterm" id="CavalrySquadron">
 <h3>Class: mil:CavalrySquadron</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#CavalrySquadron">http://rdf.muninn-project.org/ontologies/military#CavalrySquadron</a></p><p><em>Cavalry Squadron</em> - A squadron of cavalry. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#CavalrySquadron">http://rdf.muninn-project.org/ontologies/military#CavalrySquadron</a></p><p><em>Cavalry Squadron</em> - A squadron of cavalry. </p><p>Comment: A squadron of cavalry. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Squadron_(army)" style="font-family: monospace;">dbpedia:Squadron_(army)</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2116,7 +2116,7 @@
 
 <div class="specterm" id="CavalryTroop">
 <h3>Class: mil:CavalryTroop</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#CavalryTroop">http://rdf.muninn-project.org/ontologies/military#CavalryTroop</a></p><p><em>Cavalry Troop</em> - A troop of Cavalrymen. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#CavalryTroop">http://rdf.muninn-project.org/ontologies/military#CavalryTroop</a></p><p><em>Cavalry Troop</em> - A troop of Cavalrymen. </p><p>Comment: A troop of Cavalrymen. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2124,7 +2124,7 @@
 
 <div class="specterm" id="Civilian">
 <h3>Class: mil:Civilian</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Civilian">http://rdf.muninn-project.org/ontologies/military#Civilian</a></p><p><em>Civilian</em> - A person uninvolved with the conflict and not working for the conflicting powers. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Civilian">http://rdf.muninn-project.org/ontologies/military#Civilian</a></p><p><em>Civilian</em> - A person uninvolved with the conflict and not working for the conflicting powers. </p><p>Comment: A person uninvolved with the conflict and not working for the conflicting powers. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2132,7 +2132,17 @@
 
 <div class="specterm" id="Combatant">
 <h3>Class: mil:Combatant</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Combatant">http://rdf.muninn-project.org/ontologies/military#Combatant</a></p><p><em>Combatant</em> - A person engaging in combat and/or war. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Combatant">http://rdf.muninn-project.org/ontologies/military#Combatant</a></p><p><em>Combatant</em> - A person engaging in combat and/or war. </p><p>Comment: A person engaging in combat and/or war. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="Corps">
+<h3>Class: mil:Corps</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Corps">http://rdf.muninn-project.org/ontologies/military#Corps</a></p><p><em>Corps</em> - A disambiguation term for a military Corps. </p><p>Comment: A disambiguation term for a military Corps. </p>
+<dl><dt>Same As:</dt><dd><a href="http://ldf.fi/ww1lod/schema#ArmyCorps" style="font-family: monospace;">http://ldf.fi/ww1lod/schema#ArmyCorps</a></dd><dd><a href="http://dbpedia.org/resource/Corps" style="font-family: monospace;">dbpedia:Corps</a></dd>,</dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2140,9 +2150,7 @@
 
 <div class="specterm" id="CorpsFormation">
 <h3>Class: mil:CorpsFormation</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#CorpsFormation">http://rdf.muninn-project.org/ontologies/military#CorpsFormation</a></p><p><em>Corps (Formation)</em> - A military formation containing Brigades, Divisions, etc... </p>
-<dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Corps" style="font-family: monospace;">dbpedia:Corps</a></dd>,</dl>
-<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#CorpsFormation">http://rdf.muninn-project.org/ontologies/military#CorpsFormation</a></p><p><em>Corps (Formation)</em> - A military formation containing Brigades, Divisions, etc... </p><p>Comment: A military formation containing Brigades, Divisions, etc... </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2150,9 +2158,7 @@
 
 <div class="specterm" id="CorpsUnit">
 <h3>Class: mil:CorpsUnit</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#CorpsUnit">http://rdf.muninn-project.org/ontologies/military#CorpsUnit</a></p><p><em>Corps (Unit)</em> - A stand-alone administrative military unit with a specialized function, eg: Medical Corps. </p>
-<dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Corps" style="font-family: monospace;">dbpedia:Corps</a></dd>,</dl>
-<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#CorpsUnit">http://rdf.muninn-project.org/ontologies/military#CorpsUnit</a></p><p><em>Corps (Unit)</em> - A stand-alone administrative military unit with a specialized function, eg: Medical Corps. </p><p>Comment: A stand-alone administrative military unit with a specialized function, eg: Medical Corps. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2160,7 +2166,7 @@
 
 <div class="specterm" id="DemiBrigade">
 <h3>Class: mil:DemiBrigade</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#DemiBrigade">http://rdf.muninn-project.org/ontologies/military#DemiBrigade</a></p><p><em>Half-Brigade</em> - An military organizational unit derived from French Regiments. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#DemiBrigade">http://rdf.muninn-project.org/ontologies/military#DemiBrigade</a></p><p><em>Half-Brigade</em> - An military organizational unit derived from French Regiments. </p><p>Comment: An military organizational unit derived from French Regiments. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Demi-brigade" style="font-family: monospace;">dbpedia:Demi-brigade</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2170,7 +2176,7 @@
 
 <div class="specterm" id="Depot">
 <h3>Class: mil:Depot</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Depot">http://rdf.muninn-project.org/ontologies/military#Depot</a></p><p><em>Depot (Military)</em> - A location where military supplies are stored. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Depot">http://rdf.muninn-project.org/ontologies/military#Depot</a></p><p><em>Depot (Military)</em> - A location where military supplies are stored. </p><p>Comment: A location where military supplies are stored. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2178,7 +2184,7 @@
 
 <div class="specterm" id="Detachment">
 <h3>Class: mil:Detachment</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Detachment">http://rdf.muninn-project.org/ontologies/military#Detachment</a></p><p><em>Detachment (military)</em> - A group of people detached from another larger group for a specific purpose. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Detachment">http://rdf.muninn-project.org/ontologies/military#Detachment</a></p><p><em>Detachment (military)</em> - A group of people detached from another larger group for a specific purpose. </p><p>Comment: A group of people detached from another larger group for a specific purpose. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Detachment_(military)" style="font-family: monospace;">dbpedia:Detachment_(military)</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2214,7 +2220,7 @@
 
 <div class="specterm" id="DraftedSoldier">
 <h3>Class: mil:DraftedSoldier</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#DraftedSoldier">http://rdf.muninn-project.org/ontologies/military#DraftedSoldier</a></p><p><em>Soldier (Drafted)</em> - A soldier which serves on a full-time basis. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#DraftedSoldier">http://rdf.muninn-project.org/ontologies/military#DraftedSoldier</a></p><p><em>Soldier (Drafted)</em> - A soldier which serves on a full-time basis. </p><p>Comment: A soldier which serves on a full-time basis. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2222,7 +2228,7 @@
 
 <div class="specterm" id="Enlisted">
 <h3>Class: mil:Enlisted</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Enlisted">http://rdf.muninn-project.org/ontologies/military#Enlisted</a></p><p><em>Enlisted Soldier</em> - A soldier below the rank of Officer or non-commissioned Officer. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Enlisted">http://rdf.muninn-project.org/ontologies/military#Enlisted</a></p><p><em>Enlisted Soldier</em> - A soldier below the rank of Officer or non-commissioned Officer. </p><p>Comment: A soldier below the rank of Officer or non-commissioned Officer. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2230,7 +2236,7 @@
 
 <div class="specterm" id="ExchangeOfficer">
 <h3>Class: mil:ExchangeOfficer</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ExchangeOfficer">http://rdf.muninn-project.org/ontologies/military#ExchangeOfficer</a></p><p><em>Exchange Officer</em> - An officer exchanged for a set period of time. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ExchangeOfficer">http://rdf.muninn-project.org/ontologies/military#ExchangeOfficer</a></p><p><em>Exchange Officer</em> - An officer exchanged for a set period of time. </p><p>Comment: An officer exchanged for a set period of time. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Exchange_officer" style="font-family: monospace;">dbpedia:Exchange_officer</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2240,7 +2246,7 @@
 
 <div class="specterm" id="FieldArmy">
 <h3>Class: mil:FieldArmy</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#FieldArmy">http://rdf.muninn-project.org/ontologies/military#FieldArmy</a></p><p><em>Field Army</em> - A field army containing Corps, Brigades, Divisions, etc... </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#FieldArmy">http://rdf.muninn-project.org/ontologies/military#FieldArmy</a></p><p><em>Field Army</em> - A field army containing Corps, Brigades, Divisions, etc... </p><p>Comment: A field army containing Corps, Brigades, Divisions, etc... </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Field_army" style="font-family: monospace;">dbpedia:Field_army</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2250,7 +2256,7 @@
 
 <div class="specterm" id="FieldArtillery">
 <h3>Class: mil:FieldArtillery</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#FieldArtillery">http://rdf.muninn-project.org/ontologies/military#FieldArtillery</a></p><p><em>Field Artillery</em> - Field, or foot, artillery where the guns are pulled by horses but the gun crews are on foot. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#FieldArtillery">http://rdf.muninn-project.org/ontologies/military#FieldArtillery</a></p><p><em>Field Artillery</em> - Field, or foot, artillery where the guns are pulled by horses but the gun crews are on foot. </p><p>Comment: Field, or foot, artillery where the guns are pulled by horses but the gun crews are on foot. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Field_artillery" style="font-family: monospace;">dbpedia:Field_artillery</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2270,7 +2276,7 @@
 
 <div class="specterm" id="FlagOfficer">
 <h3>Class: mil:FlagOfficer</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#FlagOfficer">http://rdf.muninn-project.org/ontologies/military#FlagOfficer</a></p><p><em>Flag Officer</em> - A Commissioned Officer serving in a political entity's Navy. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#FlagOfficer">http://rdf.muninn-project.org/ontologies/military#FlagOfficer</a></p><p><em>Flag Officer</em> - A Commissioned Officer serving in a political entity's Navy. </p><p>Comment: A Commissioned Officer serving in a political entity's Navy. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2278,7 +2284,7 @@
 
 <div class="specterm" id="Flotilla">
 <h3>Class: mil:Flotilla</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Flotilla">http://rdf.muninn-project.org/ontologies/military#Flotilla</a></p><p><em>Flotilla</em> - A flotilla (from Spanish, meaning a small flota of ships, and this from French flotte), or naval flotilla, is a formation of small warships that may be part of a larger fleet. A flotilla is usually composed of a homogeneous group of the same class of warship, such as frigates, destroyers, torpedo boats, submarines, gunboats, or minesweepers. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Flotilla">http://rdf.muninn-project.org/ontologies/military#Flotilla</a></p><p><em>Flotilla</em> - A flotilla (from Spanish, meaning a small flota of ships, and this from French flotte), or naval flotilla, is a formation of small warships that may be part of a larger fleet. A flotilla is usually composed of a homogeneous group of the same class of warship, such as frigates, destroyers, torpedo boats, submarines, gunboats, or minesweepers. </p><p>Comment: A flotilla (from Spanish, meaning a small flota of ships, and this from French flotte), or naval flotilla, is a formation of small warships that may be part of a larger fleet. A flotilla is usually composed of a homogeneous group of the same class of warship, such as frigates, destroyers, torpedo boats, submarines, gunboats, or minesweepers. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Flotilla" style="font-family: monospace;">dbpedia:Flotilla</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2296,7 +2302,7 @@
 
 <div class="specterm" id="FrontLine">
 <h3>Class: mil:FrontLine</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#FrontLine">http://rdf.muninn-project.org/ontologies/military#FrontLine</a></p><p><em>Front (military)</em> - A military front or battlefront is a contested armed frontier between opposing forces. This can be a local or tactical front, or it can range to a theater. A typical front was the Western Front in France and Belgium in World War I. The term "home front" has been used to denote conditions in the civilian sector of a country at war, including those involved in the production of matériel. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#FrontLine">http://rdf.muninn-project.org/ontologies/military#FrontLine</a></p><p><em>Front (military)</em> - A military front or battlefront is a contested armed frontier between opposing forces. This can be a local or tactical front, or it can range to a theater. A typical front was the Western Front in France and Belgium in World War I. The term "home front" has been used to denote conditions in the civilian sector of a country at war, including those involved in the production of matériel. </p><p>Comment: A military front or battlefront is a contested armed frontier between opposing forces. This can be a local or tactical front, or it can range to a theater. A typical front was the Western Front in France and Belgium in World War I. The term "home front" has been used to denote conditions in the civilian sector of a country at war, including those involved in the production of matériel. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Front_(military)" style="font-family: monospace;">dbpedia:Front_(military)</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2306,7 +2312,7 @@
 
 <div class="specterm" id="Garrison">
 <h3>Class: mil:Garrison</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Garrison">http://rdf.muninn-project.org/ontologies/military#Garrison</a></p><p><em>Garrison (military)</em> - A collection of military units housed and occuping a location. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Garrison">http://rdf.muninn-project.org/ontologies/military#Garrison</a></p><p><em>Garrison (military)</em> - A collection of military units housed and occuping a location. </p><p>Comment: A collection of military units housed and occuping a location. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Garrison" style="font-family: monospace;">dbpedia:Garrison</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2316,7 +2322,7 @@
 
 <div class="specterm" id="GeneralOfficer">
 <h3>Class: mil:GeneralOfficer</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#GeneralOfficer">http://rdf.muninn-project.org/ontologies/military#GeneralOfficer</a></p><p><em>General Officer</em> - General staff officers </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#GeneralOfficer">http://rdf.muninn-project.org/ontologies/military#GeneralOfficer</a></p><p><em>General Officer</em> - General staff officers </p><p>Comment: General staff officers </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2324,7 +2330,7 @@
 
 <div class="specterm" id="GrandeBatterie">
 <h3>Class: mil:GrandeBatterie</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#GrandeBatterie">http://rdf.muninn-project.org/ontologies/military#GrandeBatterie</a></p><p><em>Grand Battery</em> - Large unit of all available artillery batteries. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#GrandeBatterie">http://rdf.muninn-project.org/ontologies/military#GrandeBatterie</a></p><p><em>Grand Battery</em> - Large unit of all available artillery batteries. </p><p>Comment: Large unit of all available artillery batteries. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Grand_Battery" style="font-family: monospace;">dbpedia:Grand_Battery</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2334,7 +2340,7 @@
 
 <div class="specterm" id="HorseArtillery">
 <h3>Class: mil:HorseArtillery</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#HorseArtillery">http://rdf.muninn-project.org/ontologies/military#HorseArtillery</a></p><p><em>Horse Artillery</em> - Field, or foot, artillery where the guns and the gun crewa are transported by horses. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#HorseArtillery">http://rdf.muninn-project.org/ontologies/military#HorseArtillery</a></p><p><em>Horse Artillery</em> - Field, or foot, artillery where the guns and the gun crewa are transported by horses. </p><p>Comment: Field, or foot, artillery where the guns and the gun crewa are transported by horses. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Horse_artillery" style="font-family: monospace;">dbpedia:Horse_artillery</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2370,7 +2376,7 @@
 
 <div class="specterm" id="LiaisonOfficer">
 <h3>Class: mil:LiaisonOfficer</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#LiaisonOfficer">http://rdf.muninn-project.org/ontologies/military#LiaisonOfficer</a></p><p><em>Liaison Officer</em> - An officer exchanged to another unit for a set purpose. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#LiaisonOfficer">http://rdf.muninn-project.org/ontologies/military#LiaisonOfficer</a></p><p><em>Liaison Officer</em> - An officer exchanged to another unit for a set purpose. </p><p>Comment: An officer exchanged to another unit for a set purpose. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Liaison_officer" style="font-family: monospace;">dbpedia:Liaison_officer</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2388,7 +2394,7 @@
 
 <div class="specterm" id="MilitaryAirborneFlight">
 <h3>Class: mil:MilitaryAirborneFlight</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryAirborneFlight">http://rdf.muninn-project.org/ontologies/military#MilitaryAirborneFlight</a></p><p><em>Aviation Flight (Military Unit)</em> - An aviation airborne flight. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryAirborneFlight">http://rdf.muninn-project.org/ontologies/military#MilitaryAirborneFlight</a></p><p><em>Aviation Flight (Military Unit)</em> - An aviation airborne flight. </p><p>Comment: An aviation airborne flight. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2396,7 +2402,7 @@
 
 <div class="specterm" id="MilitaryAppointment">
 <h3>Class: mil:MilitaryAppointment</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryAppointment">http://rdf.muninn-project.org/ontologies/military#MilitaryAppointment</a></p><p><em>Appointment (Military)</em> - An appointment / function in a Military Organization. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryAppointment">http://rdf.muninn-project.org/ontologies/military#MilitaryAppointment</a></p><p><em>Appointment (Military)</em> - An appointment / function in a Military Organization. </p><p>Comment: An appointment / function in a Military Organization. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2414,7 +2420,7 @@
 
 <div class="specterm" id="MilitaryFlightUnit">
 <h3>Class: mil:MilitaryFlightUnit</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryFlightUnit">http://rdf.muninn-project.org/ontologies/military#MilitaryFlightUnit</a></p><p><em>Flight (military unit)</em> - A flight is a military unit in an air force, naval air service, or army air corps. It usually comprises three to six aircraft, with their aircrews and ground staff; or, in the case of a non-flying ground flight, no aircraft and a roughly equivalent number of support personnel. In most usages, multiple flights make up a squadron. The "flight" is also a basic unit for intercontinental ballistic missiles. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryFlightUnit">http://rdf.muninn-project.org/ontologies/military#MilitaryFlightUnit</a></p><p><em>Flight (military unit)</em> - A flight is a military unit in an air force, naval air service, or army air corps. It usually comprises three to six aircraft, with their aircrews and ground staff; or, in the case of a non-flying ground flight, no aircraft and a roughly equivalent number of support personnel. In most usages, multiple flights make up a squadron. The "flight" is also a basic unit for intercontinental ballistic missiles. </p><p>Comment: A flight is a military unit in an air force, naval air service, or army air corps. It usually comprises three to six aircraft, with their aircrews and ground staff; or, in the case of a non-flying ground flight, no aircraft and a roughly equivalent number of support personnel. In most usages, multiple flights make up a squadron. The "flight" is also a basic unit for intercontinental ballistic missiles. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Flight_(military_unit)" style="font-family: monospace;">dbpedia:Flight_(military_unit)</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2424,7 +2430,7 @@
 
 <div class="specterm" id="MilitaryGroundFlight">
 <h3>Class: mil:MilitaryGroundFlight</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryGroundFlight">http://rdf.muninn-project.org/ontologies/military#MilitaryGroundFlight</a></p><p><em>Ground Flight (Military Unit)</em> - Consists of ground personel for an Air Force. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryGroundFlight">http://rdf.muninn-project.org/ontologies/military#MilitaryGroundFlight</a></p><p><em>Ground Flight (Military Unit)</em> - Consists of ground personel for an Air Force. </p><p>Comment: Consists of ground personel for an Air Force. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2440,7 +2446,7 @@
 
 <div class="specterm" id="MilitaryOrganization">
 <h3>Class: mil:MilitaryOrganization</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryOrganization">http://rdf.muninn-project.org/ontologies/military#MilitaryOrganization</a></p><p><em>A Military Organization</em> - An organization that is military. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryOrganization">http://rdf.muninn-project.org/ontologies/military#MilitaryOrganization</a></p><p><em>A Military Organization</em> - An organization that is military. </p><p>Comment: An organization that is military. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/MilitaryUnit" style="font-family: monospace;">dbpedia:MilitaryUnit</a></dd>,<dt>in-domain-of:</dt><dd><a href="#hasCommanderInChief" style="font-family: monospace;">mil:hasCommanderInChief</a></dd><dt>in-range-of:</dt><dd><a href="#commanderInChiefOf" style="font-family: monospace;">mil:commanderInChiefOf</a></dd></dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2458,7 +2464,7 @@
 
 <div class="specterm" id="MilitaryRank">
 <h3>Class: mil:MilitaryRank</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryRank">http://rdf.muninn-project.org/ontologies/military#MilitaryRank</a></p><p><em>Rank (Military)</em> - A military rank. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryRank">http://rdf.muninn-project.org/ontologies/military#MilitaryRank</a></p><p><em>Rank (Military)</em> - A military rank. </p><p>Comment: A military rank. </p>
 <dl><dt>in-domain-of:</dt><dd><a href="#hasUniform" style="font-family: monospace;">mil:hasUniform</a></dd><dt>in-range-of:</dt><dd><a href="#rankOf" style="font-family: monospace;">mil:rankOf</a></dd><dd><a href="#heldRank" style="font-family: monospace;">mil:heldRank</a></dd></dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2478,7 +2484,7 @@
 
 <div class="specterm" id="MilitaryTrade">
 <h3>Class: mil:MilitaryTrade</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryTrade">http://rdf.muninn-project.org/ontologies/military#MilitaryTrade</a></p><p><em>Trade (Military)</em> - A military trade. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryTrade">http://rdf.muninn-project.org/ontologies/military#MilitaryTrade</a></p><p><em>Trade (Military)</em> - A military trade. </p><p>Comment: A military trade. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2486,7 +2492,7 @@
 
 <div class="specterm" id="MilitaryTrench">
 <h3>Class: mil:MilitaryTrench</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryTrench">http://rdf.muninn-project.org/ontologies/military#MilitaryTrench</a></p><p><em>Military Trench</em> - A depression in the ground serving as fortification. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MilitaryTrench">http://rdf.muninn-project.org/ontologies/military#MilitaryTrench</a></p><p><em>Military Trench</em> - A depression in the ground serving as fortification. </p><p>Comment: A depression in the ground serving as fortification. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2504,7 +2510,7 @@
 
 <div class="specterm" id="MountainArtillery">
 <h3>Class: mil:MountainArtillery</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MountainArtillery">http://rdf.muninn-project.org/ontologies/military#MountainArtillery</a></p><p><em>Mountain Artillery</em> - Artillery units capable of disassembling and reassembling their guns for mountain transport. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#MountainArtillery">http://rdf.muninn-project.org/ontologies/military#MountainArtillery</a></p><p><em>Mountain Artillery</em> - Artillery units capable of disassembling and reassembling their guns for mountain transport. </p><p>Comment: Artillery units capable of disassembling and reassembling their guns for mountain transport. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2512,7 +2518,7 @@
 
 <div class="specterm" id="NamedAirForceUnit">
 <h3>Class: mil:NamedAirForceUnit</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NamedAirForceUnit">http://rdf.muninn-project.org/ontologies/military#NamedAirForceUnit</a></p><p><em>Numbered Air Force</em> - Use this for numbered / named air forces, eg: US 8th Air Force. Ambiguous useage over time within the command structure. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NamedAirForceUnit">http://rdf.muninn-project.org/ontologies/military#NamedAirForceUnit</a></p><p><em>Numbered Air Force</em> - Use this for numbered / named air forces, eg: US 8th Air Force. Ambiguous useage over time within the command structure. </p><p>Comment: Use this for numbered / named air forces, eg: US 8th Air Force. Ambiguous useage over time within the command structure. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Numbered_Air_Force" style="font-family: monospace;">dbpedia:Numbered_Air_Force</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2722,7 +2728,7 @@
 
 <div class="specterm" id="NavalArtillery">
 <h3>Class: mil:NavalArtillery</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavalArtillery">http://rdf.muninn-project.org/ontologies/military#NavalArtillery</a></p><p><em>Navel Artillery</em> - Naval artillery unit operating from the ship on land. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavalArtillery">http://rdf.muninn-project.org/ontologies/military#NavalArtillery</a></p><p><em>Navel Artillery</em> - Naval artillery unit operating from the ship on land. </p><p>Comment: Naval artillery unit operating from the ship on land. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2730,7 +2736,7 @@
 
 <div class="specterm" id="NavalFleet">
 <h3>Class: mil:NavalFleet</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavalFleet">http://rdf.muninn-project.org/ontologies/military#NavalFleet</a></p><p><em>Naval fleet</em> - A fleet, or naval fleet, is a large formation of warships, and the largest formation in any navy. A fleet at sea is the direct equivalent of an army on land. Fleets are usually, but not necessarily, permanent formations and are generally assigned to a particular ocean or sea. Most fleets are named after that ocean or sea, but the convention in the United States Navy is to use numbers. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavalFleet">http://rdf.muninn-project.org/ontologies/military#NavalFleet</a></p><p><em>Naval fleet</em> - A fleet, or naval fleet, is a large formation of warships, and the largest formation in any navy. A fleet at sea is the direct equivalent of an army on land. Fleets are usually, but not necessarily, permanent formations and are generally assigned to a particular ocean or sea. Most fleets are named after that ocean or sea, but the convention in the United States Navy is to use numbers. </p><p>Comment: A fleet, or naval fleet, is a large formation of warships, and the largest formation in any navy. A fleet at sea is the direct equivalent of an army on land. Fleets are usually, but not necessarily, permanent formations and are generally assigned to a particular ocean or sea. Most fleets are named after that ocean or sea, but the convention in the United States Navy is to use numbers. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Naval_fleet" style="font-family: monospace;">dbpedia:Naval_fleet</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2740,7 +2746,7 @@
 
 <div class="specterm" id="NavalOfficer">
 <h3>Class: mil:NavalOfficer</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavalOfficer">http://rdf.muninn-project.org/ontologies/military#NavalOfficer</a></p><p><em>Naval Officer</em> - A Commissioned Officer serving in a political entity's Navy. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavalOfficer">http://rdf.muninn-project.org/ontologies/military#NavalOfficer</a></p><p><em>Naval Officer</em> - A Commissioned Officer serving in a political entity's Navy. </p><p>Comment: A Commissioned Officer serving in a political entity's Navy. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2748,7 +2754,7 @@
 
 <div class="specterm" id="NavalRating">
 <h3>Class: mil:NavalRating</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavalRating">http://rdf.muninn-project.org/ontologies/military#NavalRating</a></p><p><em>Naval Rating</em> - A Seaman serving in a political entity's Navy. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavalRating">http://rdf.muninn-project.org/ontologies/military#NavalRating</a></p><p><em>Naval Rating</em> - A Seaman serving in a political entity's Navy. </p><p>Comment: A Seaman serving in a political entity's Navy. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2756,7 +2762,7 @@
 
 <div class="specterm" id="NavalSquadron">
 <h3>Class: mil:NavalSquadron</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavalSquadron">http://rdf.muninn-project.org/ontologies/military#NavalSquadron</a></p><p><em>Squadron (naval)</em> - A squadron, or naval squadron, is a unit of 3-4 major warships, transport ships, submarines, or sometimes small craft that may be part of a larger task force or a fleet. A squadron is usually composed of a homogeneous group of the same classification of ships, such as battleships, battlecruisers, cruisers, destroyers or frigates, or of various types tasked with a specific mission such as coastal patrol, blockade, or minesweeping. Smaller warships are usually grouped in flotillas. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavalSquadron">http://rdf.muninn-project.org/ontologies/military#NavalSquadron</a></p><p><em>Squadron (naval)</em> - A squadron, or naval squadron, is a unit of 3-4 major warships, transport ships, submarines, or sometimes small craft that may be part of a larger task force or a fleet. A squadron is usually composed of a homogeneous group of the same classification of ships, such as battleships, battlecruisers, cruisers, destroyers or frigates, or of various types tasked with a specific mission such as coastal patrol, blockade, or minesweeping. Smaller warships are usually grouped in flotillas. </p><p>Comment: A squadron, or naval squadron, is a unit of 3-4 major warships, transport ships, submarines, or sometimes small craft that may be part of a larger task force or a fleet. A squadron is usually composed of a homogeneous group of the same classification of ships, such as battleships, battlecruisers, cruisers, destroyers or frigates, or of various types tasked with a specific mission such as coastal patrol, blockade, or minesweeping. Smaller warships are usually grouped in flotillas. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Squadron_(naval)" style="font-family: monospace;">dbpedia:Squadron_(naval)</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2774,7 +2780,7 @@
 
 <div class="specterm" id="NavyAirStation">
 <h3>Class: mil:NavyAirStation</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavyAirStation">http://rdf.muninn-project.org/ontologies/military#NavyAirStation</a></p><p><em>Station (Naval Aircraft)</em> - An Naval air station. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavyAirStation">http://rdf.muninn-project.org/ontologies/military#NavyAirStation</a></p><p><em>Station (Naval Aircraft)</em> - An Naval air station. </p><p>Comment: An Naval air station. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2782,7 +2788,7 @@
 
 <div class="specterm" id="NavyBigFleet">
 <h3>Class: mil:NavyBigFleet</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavyBigFleet">http://rdf.muninn-project.org/ontologies/military#NavyBigFleet</a></p><p><em>Navy (Named or Numbered)</em> - A named or numbered Navy based on operating area or administrative grouping. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NavyBigFleet">http://rdf.muninn-project.org/ontologies/military#NavyBigFleet</a></p><p><em>Navy (Named or Numbered)</em> - A named or numbered Navy based on operating area or administrative grouping. </p><p>Comment: A named or numbered Navy based on operating area or administrative grouping. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2810,7 +2816,7 @@
 
 <div class="specterm" id="Non-Combatant">
 <h3>Class: mil:Non-Combatant</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Non-Combatant">http://rdf.muninn-project.org/ontologies/military#Non-Combatant</a></p><p><em>Non-Combatant</em> - A person not engaged in combat and/or war, but which might be involved in a war. This includes nurses, chaplains, medics depending on the era. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Non-Combatant">http://rdf.muninn-project.org/ontologies/military#Non-Combatant</a></p><p><em>Non-Combatant</em> - A person not engaged in combat and/or war, but which might be involved in a war. This includes nurses, chaplains, medics depending on the era. </p><p>Comment: A person not engaged in combat and/or war, but which might be involved in a war. This includes nurses, chaplains, medics depending on the era. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2818,7 +2824,7 @@
 
 <div class="specterm" id="NonCommissionedOfficer">
 <h3>Class: mil:NonCommissionedOfficer</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NonCommissionedOfficer">http://rdf.muninn-project.org/ontologies/military#NonCommissionedOfficer</a></p><p><em>Non Commissioned Officer</em> - A soldier with a rank of Corporal or above. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#NonCommissionedOfficer">http://rdf.muninn-project.org/ontologies/military#NonCommissionedOfficer</a></p><p><em>Non Commissioned Officer</em> - A soldier with a rank of Corporal or above. </p><p>Comment: A soldier with a rank of Corporal or above. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2826,7 +2832,7 @@
 
 <div class="specterm" id="Officer">
 <h3>Class: mil:Officer</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Officer">http://rdf.muninn-project.org/ontologies/military#Officer</a></p><p><em>Officer</em> - A commissioned officer, acting, breveted or confirmed. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Officer">http://rdf.muninn-project.org/ontologies/military#Officer</a></p><p><em>Officer</em> - A commissioned officer, acting, breveted or confirmed. </p><p>Comment: A commissioned officer, acting, breveted or confirmed. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2834,7 +2840,7 @@
 
 <div class="specterm" id="Platoon">
 <h3>Class: mil:Platoon</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Platoon">http://rdf.muninn-project.org/ontologies/military#Platoon</a></p><p><em>Platoon</em> - A platoon </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Platoon">http://rdf.muninn-project.org/ontologies/military#Platoon</a></p><p><em>Platoon</em> - A platoon </p><p>Comment: A platoon </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Platoon" style="font-family: monospace;">dbpedia:Platoon</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2852,7 +2858,7 @@
 
 <div class="specterm" id="PrivilegedCombatant">
 <h3>Class: mil:PrivilegedCombatant</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#PrivilegedCombatant">http://rdf.muninn-project.org/ontologies/military#PrivilegedCombatant</a></p><p><em>Privileged Combatant</em> - A person engaging in combat and/or war as a privileged combatants under the rules of war, circa Great War. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#PrivilegedCombatant">http://rdf.muninn-project.org/ontologies/military#PrivilegedCombatant</a></p><p><em>Privileged Combatant</em> - A person engaging in combat and/or war as a privileged combatants under the rules of war, circa Great War. </p><p>Comment: A person engaging in combat and/or war as a privileged combatants under the rules of war, circa Great War. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2860,7 +2866,7 @@
 
 <div class="specterm" id="ProtoAirForce">
 <h3>Class: mil:ProtoAirForce</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ProtoAirForce">http://rdf.muninn-project.org/ontologies/military#ProtoAirForce</a></p><p><em>Proto Air Force</em> - Use this class for army air corps, naval aviation and army aviation. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#ProtoAirForce">http://rdf.muninn-project.org/ontologies/military#ProtoAirForce</a></p><p><em>Proto Air Force</em> - Use this class for army air corps, naval aviation and army aviation. </p><p>Comment: Use this class for army air corps, naval aviation and army aviation. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2868,7 +2874,7 @@
 
 <div class="specterm" id="Rank">
 <h3>Class: mil:Rank</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Rank">http://rdf.muninn-project.org/ontologies/military#Rank</a></p><p><em>Rank (Civil)</em> - A Civilian rank. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Rank">http://rdf.muninn-project.org/ontologies/military#Rank</a></p><p><em>Rank (Civil)</em> - A Civilian rank. </p><p>Comment: A Civilian rank. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2876,7 +2882,7 @@
 
 <div class="specterm" id="Regiment">
 <h3>Class: mil:Regiment</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Regiment">http://rdf.muninn-project.org/ontologies/military#Regiment</a></p><p><em>Regiment</em> - A regiment, be it administrative or historical. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Regiment">http://rdf.muninn-project.org/ontologies/military#Regiment</a></p><p><em>Regiment</em> - A regiment, be it administrative or historical. </p><p>Comment: A regiment, be it administrative or historical. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Regiment" style="font-family: monospace;">dbpedia:Regiment</a></dd>,<dt>in-domain-of:</dt><dd><a href="#RegimentalColours" style="font-family: monospace;">mil:RegimentalColours</a></dd></dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2886,7 +2892,7 @@
 
 <div class="specterm" id="RegularForceSoldier">
 <h3>Class: mil:RegularForceSoldier</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#RegularForceSoldier">http://rdf.muninn-project.org/ontologies/military#RegularForceSoldier</a></p><p><em>Regular Soldier</em> - A soldier who serves on a full-time basis. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#RegularForceSoldier">http://rdf.muninn-project.org/ontologies/military#RegularForceSoldier</a></p><p><em>Regular Soldier</em> - A soldier who serves on a full-time basis. </p><p>Comment: A soldier who serves on a full-time basis. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2894,7 +2900,7 @@
 
 <div class="specterm" id="Reservist">
 <h3>Class: mil:Reservist</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Reservist">http://rdf.muninn-project.org/ontologies/military#Reservist</a></p><p><em>Reservist (Soldier)</em> - A soldier who serves on a part-time basis or when called up. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Reservist">http://rdf.muninn-project.org/ontologies/military#Reservist</a></p><p><em>Reservist (Soldier)</em> - A soldier who serves on a part-time basis or when called up. </p><p>Comment: A soldier who serves on a part-time basis or when called up. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2910,7 +2916,7 @@
 
 <div class="specterm" id="SeamanMilitary">
 <h3>Class: mil:SeamanMilitary</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#SeamanMilitary">http://rdf.muninn-project.org/ontologies/military#SeamanMilitary</a></p><p><em>Seaman (Military)</em> - A Seaman serving in a political entity's Navy. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#SeamanMilitary">http://rdf.muninn-project.org/ontologies/military#SeamanMilitary</a></p><p><em>Seaman (Military)</em> - A Seaman serving in a political entity's Navy. </p><p>Comment: A Seaman serving in a political entity's Navy. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2934,7 +2940,7 @@
 
 <div class="specterm" id="Soldier">
 <h3>Class: mil:Soldier</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Soldier">http://rdf.muninn-project.org/ontologies/military#Soldier</a></p><p><em>Soldier</em> - A soldier serving in a political entity's Army. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Soldier">http://rdf.muninn-project.org/ontologies/military#Soldier</a></p><p><em>Soldier</em> - A soldier serving in a political entity's Army. </p><p>Comment: A soldier serving in a political entity's Army. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Soldier" style="font-family: monospace;">dbpedia:Soldier</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -2944,7 +2950,7 @@
 
 <div class="specterm" id="Spy">
 <h3>Class: mil:Spy</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Spy">http://rdf.muninn-project.org/ontologies/military#Spy</a></p><p><em>Spy</em> - A person engaging in combat, war and/or espionage as an unprivileged combatant under the rules of war. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Spy">http://rdf.muninn-project.org/ontologies/military#Spy</a></p><p><em>Spy</em> - A person engaging in combat, war and/or espionage as an unprivileged combatant under the rules of war. </p><p>Comment: A person engaging in combat, war and/or espionage as an unprivileged combatant under the rules of war. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2960,7 +2966,7 @@
 
 <div class="specterm" id="SupplyTrain">
 <h3>Class: mil:SupplyTrain</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#SupplyTrain">http://rdf.muninn-project.org/ontologies/military#SupplyTrain</a></p><p><em>Supply Train (Military)</em> - A supply organization moving military supplies. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#SupplyTrain">http://rdf.muninn-project.org/ontologies/military#SupplyTrain</a></p><p><em>Supply Train (Military)</em> - A supply organization moving military supplies. </p><p>Comment: A supply organization moving military supplies. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2968,7 +2974,7 @@
 
 <div class="specterm" id="TacticalAirForce">
 <h3>Class: mil:TacticalAirForce</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#TacticalAirForce">http://rdf.muninn-project.org/ontologies/military#TacticalAirForce</a></p><p><em>Tactical Air Force</em> - Tactical Air Force. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#TacticalAirForce">http://rdf.muninn-project.org/ontologies/military#TacticalAirForce</a></p><p><em>Tactical Air Force</em> - Tactical Air Force. </p><p>Comment: Tactical Air Force. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2976,7 +2982,7 @@
 
 <div class="specterm" id="Trade">
 <h3>Class: mil:Trade</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Trade">http://rdf.muninn-project.org/ontologies/military#Trade</a></p><p><em>Trade (Civil)</em> - A Civilian trade. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Trade">http://rdf.muninn-project.org/ontologies/military#Trade</a></p><p><em>Trade (Civil)</em> - A Civilian trade. </p><p>Comment: A Civilian trade. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2984,7 +2990,7 @@
 
 <div class="specterm" id="TrenchObstacle">
 <h3>Class: mil:TrenchObstacle</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#TrenchObstacle">http://rdf.muninn-project.org/ontologies/military#TrenchObstacle</a></p><p><em>Trench Obstacle</em> - A wooden or metal structure meant to restrict ennemy mouvement. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#TrenchObstacle">http://rdf.muninn-project.org/ontologies/military#TrenchObstacle</a></p><p><em>Trench Obstacle</em> - A wooden or metal structure meant to restrict ennemy mouvement. </p><p>Comment: A wooden or metal structure meant to restrict ennemy mouvement. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -2992,7 +2998,7 @@
 
 <div class="specterm" id="UnprivilegedCombatant">
 <h3>Class: mil:UnprivilegedCombatant</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#UnprivilegedCombatant">http://rdf.muninn-project.org/ontologies/military#UnprivilegedCombatant</a></p><p><em>Unprivileged Combatant</em> - A person engaging in combat and/or war as an unprivileged combatants under the rules of war. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#UnprivilegedCombatant">http://rdf.muninn-project.org/ontologies/military#UnprivilegedCombatant</a></p><p><em>Unprivileged Combatant</em> - A person engaging in combat and/or war as an unprivileged combatants under the rules of war. </p><p>Comment: A person engaging in combat and/or war as an unprivileged combatants under the rules of war. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -3000,7 +3006,7 @@
 
 <div class="specterm" id="VolunteerSoldier">
 <h3>Class: mil:VolunteerSoldier</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#VolunteerSoldier">http://rdf.muninn-project.org/ontologies/military#VolunteerSoldier</a></p><p><em>Soldier (Volunteer)</em> - A soldier which serves on a full-time basis. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#VolunteerSoldier">http://rdf.muninn-project.org/ontologies/military#VolunteerSoldier</a></p><p><em>Soldier (Volunteer)</em> - A soldier which serves on a full-time basis. </p><p>Comment: A soldier which serves on a full-time basis. </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -3016,7 +3022,7 @@
 
 <div class="specterm" id="WarTheater">
 <h3>Class: mil:WarTheater</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#WarTheater">http://rdf.muninn-project.org/ontologies/military#WarTheater</a></p><p><em>Theater (warfare)</em> - An army theater of war. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#WarTheater">http://rdf.muninn-project.org/ontologies/military#WarTheater</a></p><p><em>Theater (warfare)</em> - An army theater of war. </p><p>Comment: An army theater of war. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Theater_(warfare)" style="font-family: monospace;">dbpedia:Theater_(warfare)</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -3026,7 +3032,7 @@
 
 <div class="specterm" id="WarrantOfficer">
 <h3>Class: mil:WarrantOfficer</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#WarrantOfficer">http://rdf.muninn-project.org/ontologies/military#WarrantOfficer</a></p><p><em>Warrant Officer</em> - A senior non-officer . </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#WarrantOfficer">http://rdf.muninn-project.org/ontologies/military#WarrantOfficer</a></p><p><em>Warrant Officer</em> - A senior non-officer . </p><p>Comment: A senior non-officer . </p><p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
 
@@ -3042,7 +3048,7 @@
 
 <div class="specterm" id="Weapon">
 <h3>Class: mil:Weapon</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Weapon">http://rdf.muninn-project.org/ontologies/military#Weapon</a></p><p><em>Weapon (Military)</em> - A weapon type but not a branch. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#Weapon">http://rdf.muninn-project.org/ontologies/military#Weapon</a></p><p><em>Weapon (Military)</em> - A weapon type but not a branch. </p><p>Comment: A weapon type but not a branch. </p>
 <dl><dt>Same As:</dt><dd><a href="http://dbpedia.org/resource/Weapon" style="font-family: monospace;">dbpedia:Weapon</a></dd>,</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
@@ -3052,7 +3058,7 @@
 
 <div class="specterm" id="BattleStandard">
 <h3>Property: mil:BattleStandard</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#BattleStandard">http://rdf.muninn-project.org/ontologies/military#BattleStandard</a></p><p><em>Battle Standard</em> - Flag used to represent that unit on a battlefield. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#BattleStandard">http://rdf.muninn-project.org/ontologies/military#BattleStandard</a></p><p><em>Battle Standard</em> - Flag used to represent that unit on a battlefield. </p><p>Comment: Flag used to represent that unit on a battlefield. </p>
 <dl><dt>OWL Type:</dt><dd>ObjectProperty</dd>
 <dt>sub-property-of:</dt> <dd><a href="http://dbpedia.org/ontology/flag" style="font-family: monospace;">http://dbpedia.org/ontology/flag</a></dd><dt>Domain:</dt> <dd><a href="#ArmyServiceBranch" style="font-family: monospace;">mil:ArmyServiceBranch</a></dd></dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
@@ -3063,7 +3069,7 @@
 
 <div class="specterm" id="RegimentalColours">
 <h3>Property: mil:RegimentalColours</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#RegimentalColours">http://rdf.muninn-project.org/ontologies/military#RegimentalColours</a></p><p><em>Regimental Colours</em> - Flag used by a regiment on a battlefield or on parade. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#RegimentalColours">http://rdf.muninn-project.org/ontologies/military#RegimentalColours</a></p><p><em>Regimental Colours</em> - Flag used by a regiment on a battlefield or on parade. </p><p>Comment: Flag used by a regiment on a battlefield or on parade. </p>
 <dl><dt>OWL Type:</dt><dd>ObjectProperty</dd>
 <dt>sub-property-of:</dt> <dd><a href="http://dbpedia.org/ontology/flag" style="font-family: monospace;">http://dbpedia.org/ontology/flag</a></dd><dt>Domain:</dt> <dd><a href="#Regiment" style="font-family: monospace;">mil:Regiment</a></dd></dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
@@ -3096,7 +3102,7 @@
 
 <div class="specterm" id="deathDay">
 <h3>Property: mil:deathDay</h3>
-<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#deathDay">http://rdf.muninn-project.org/ontologies/military#deathDay</a></p><p><em>Day of Death</em> - The day on which this agent died. Birthday is inhereited from foaf. </p>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#deathDay">http://rdf.muninn-project.org/ontologies/military#deathDay</a></p><p><em>Day of Death</em> - The day on which this agent died. Birthday is inhereited from foaf. </p><p>Comment: The day on which this agent died. Birthday is inhereited from foaf. </p>
 <dl><dt>OWL Type:</dt><dd>ObjectProperty</dd>
 <dt>Range:</dt> <dd><a href="http://xmlns.com/foaf/spec/Agent" style="font-family: monospace;">http://xmlns.com/foaf/spec/Agent</a></dd></dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
@@ -3160,11 +3166,33 @@
 
 </div>
 
+<div class="specterm" id="idANZACNumber">
+<h3>Property: mil:idANZACNumber</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#idANZACNumber">http://rdf.muninn-project.org/ontologies/military#idANZACNumber</a></p><p><em>Australian Archives Anzac Person Identifier</em> - Identifier used by the Australian archives to uniquely identify people involved in the Great War. </p><p>Comment: Identifier used by the Australian archives to uniquely identify people involved in the Great War. </p>
+<dl><dt>OWL Type:</dt><dd>DatatypeProperty</dd>
+</dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
 <div class="specterm" id="inUse">
 <h3>Property: mil:inUse</h3>
 <p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#inUse">http://rdf.muninn-project.org/ontologies/military#inUse</a></p><p><em>In Use</em> -  </p>
 <dl><dt>OWL Type:</dt><dd>ObjectProperty</dd>
 <dt>Domain:</dt> <dd><a href="#MilitaryUniform" style="font-family: monospace;">mil:MilitaryUniform</a></dd><dt>Range:</dt> <dd><a href="http://www.w3.org/2006/time#TemporalEntity" style="font-family: monospace;">http://www.w3.org/2006/time#TemporalEntity</a></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="militaryServiceNumber">
+<h3>Property: mil:militaryServiceNumber</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://rdf.muninn-project.org/ontologies/military#militaryServiceNumber">http://rdf.muninn-project.org/ontologies/military#militaryServiceNumber</a></p><p><em>Military Service Number</em> - A military service number within a military organization which may or might not be unique. </p><p>Comment: A military service number within a military organization which may or might not be unique. </p>
+<dl><dt>OWL Type:</dt><dd>DatatypeProperty</dd>
+</dl>
 <p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
 
 
@@ -10438,4 +10466,4 @@ Robert&nbsp;H. Warren.
 
 </html>
 
-<!-- specification regenerated by SpecGen5 at 22:04:46 12/07/14 EST -->
+<!-- specification regenerated by SpecGen5 at 00:22:43 07/04/15 EDT -->
