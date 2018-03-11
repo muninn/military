@@ -29,10 +29,10 @@
    <dc:description xml:lang="en">The Muninn Military Ontology marks up information about military people, organizations and events.</dc:description>
    <rdfs:label xml:lang="en">The Muninn Military Ontology</rdfs:label>
    <rdfs:comment xml:lang="en">The Muninn Military Ontology marks up information about military people, organizations and events.</rdfs:comment>
-   <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+   <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</owl:versionInfo>
    <foaf:name xml:lang="en">Military Ontology</foaf:name>
-   <owl:priorVersion rdf:resource="http://rdf.muninn-project.org/ontologies/military-20141207.owl"/>
-   <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">20150704</dc:date>
+   <owl:priorVersion rdf:resource="http://rdf.muninn-project.org/ontologies/military-20150704.owl"/>
+   <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">20150705</dc:date>
    <dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/"/> 
    <vs:term_status>Stable</vs:term_status>
    <dc:creator rdf:resource="http://rdf.muninn-project.org/ww1/2011/11/11/Person/Warren"/> 
@@ -45,7 +45,7 @@
   </owl:Ontology>
 
   <void:Dataset rdf:about="#datasetdefinition">
-   <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+   <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</owl:versionInfo>
    <dc:title xml:lang="en">The Muninn Military  Ontology</dc:title>
    <foaf:name xml:lang="en">The Muninn Military Ontology</foaf:name>
    <rdfs:label xml:lang="en">The Muninn Military Ontology</rdfs:label>
@@ -407,10 +407,30 @@
   <rdfs:label xml:lang="en">Has Uniform</rdfs:label>  
   <rdfs:domain rdf:resource="http://rdf.muninn-project.org/ontologies/military#MilitaryRank"/>
   <rdfs:range rdf:resource="http://rdf.muninn-project.org/ontologies/military#MilitaryUniform"/>
-  <owl:inverseOf rdf:resource="#CommanderInChiefOf"/>
    <rdfs:isDefinedBy rdf:resource="http://rdf.muninn-project.org/ontologies/military"/>
    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
  <void:inDataset rdf:resource="#datasetdefinition"/>
+</owl:ObjectProperty>
+
+ <owl:ObjectProperty rdf:ID="placeOfEnlistment">
+  <rdfs:label xml:lang="en">Place Of Enlistment</rdfs:label>  
+   <foaf:name xml:lang="en">Place Of Enlistment</foaf:name>
+ <skos:definition xml:lang="en">The place of initial enlistment into a military. This is property that is meant for commemoration purposes. For bureaucratic and historical reasons, this property may occur more than once.This term does not provide a hook for provenance information.</skos:definition>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.muninn-project.org/ontologies/military"/>
+   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+ <void:inDataset rdf:resource="#datasetdefinition"/>
+
+</owl:ObjectProperty>
+
+
+ <owl:ObjectProperty rdf:ID="nextOfKin">
+  <rdfs:label xml:lang="en">Next Of Kin</rdfs:label>  
+   <foaf:name xml:lang="en">Next Of Kin</foaf:name>
+ <skos:definition xml:lang="en">A person with a loose family / emotional connection that is listed by someone to be contacted in the event of death. This is a loosely defined term meant for commemoration and honour roll purposes.This term does not provide a hook for provenance information.</skos:definition>
+   <rdfs:isDefinedBy rdf:resource="http://rdf.muninn-project.org/ontologies/military"/>
+   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+ <void:inDataset rdf:resource="#datasetdefinition"/>
+
 </owl:ObjectProperty>
 
  <owl:Class rdf:ID="MilitaryUniform">
